@@ -1,5 +1,7 @@
 # Precious Bale Clothing Website
 
+Navigate through our user-friendly interface to find the ideal piece for any mood or event. Our website offers a seamless shopping experience, with high-definition images and detailed descriptions that bring your next favorite outfit one step closer.
+
 ## Future Features
 * Home (New Arrival)
 * Detail products
