@@ -5,6 +5,7 @@
 * Detail products
 * Recommended products
 * Cart
+* Payment Methods
 * Login / Register /Forgot Password
 
 ## Screenshot 
