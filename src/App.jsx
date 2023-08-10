@@ -23,6 +23,7 @@ function App() {
     <>
       <ShopContext>
         <BrowserRouter>
+      
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
@@ -40,6 +41,7 @@ function App() {
               <Route path="details" element={<Details />} />
             </Route>
           </Routes>
+ 
         </BrowserRouter>
       </ShopContext>
       <div className="App">

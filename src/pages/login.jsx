@@ -7,6 +7,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+
   const handleSubmit = (event) => {
     event.preventDefault();
     if (password == '') {

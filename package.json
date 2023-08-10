@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://jheremeiarciaga.github.io/ecommerce-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
