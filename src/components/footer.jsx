@@ -110,12 +110,12 @@ const footer = () => {
                 <div className="pay d-flex ">
                   <div>
                     <Link>
-                      <img src={google} alt="" className="img-fluid p-4 px-1 p-xl-1 my-3" />
+                      <img src={google} alt="" className="img-fluid px-1 p-xl-1 my-3" />
                     </Link>
                   </div>
                   <div>
                     <Link>
-                      <img src={app} alt="" className="img-fluid p-4 px-1 p-xl-1 my-3" />
+                      <img src={app} alt="" className="img-fluid  px-1 p-xl-1 my-3" />
                     </Link>
                   </div>
                 </div>

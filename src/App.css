@@ -240,12 +240,12 @@ footer{
 }
 .pay img{
   transition: 0.5s ease;
-  max-width: 170px;
+  max-width: 150px;
   
 }
 .pay1 img{
   transition: 0.5s ease;
-  max-width: 300px;
+  max-width:270px;
 }
 .pay img:hover{
   transform: translateY(-8px);
