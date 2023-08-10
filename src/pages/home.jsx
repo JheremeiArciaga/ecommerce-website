@@ -43,17 +43,10 @@ const home = () => {
           </div>
         </div>
       </section>
-
-      <section className="repair d-flex flex-column align-items-center justify-content-center ">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="repair-details text-center  p-3">
-              
-          
-            </div>
-          </div>
-        </div>
+      <Link to={'/shop'}> 
+      <section  className="repair  ">
       </section>
+      </Link>
 
       <section className="new-products p-5">
         <div className="container-xxl">

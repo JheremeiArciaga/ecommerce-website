@@ -96,6 +96,15 @@ button:hover{
  
   transform: scale(1.1);
 }
+.kulay button{
+  padding: 0 7px;
+
+ 
+
+}
+.kulay button:hover{
+  transform: scale(1.1);
+}
 .button-link{
   padding: 12px 10px;
   font-size: 18px;
@@ -147,7 +156,6 @@ color: var(--primary);
   background-repeat: no-repeat;
   background-size: contain;
   height: 40px;
-
   width:100%;
 
 }
@@ -227,8 +235,9 @@ color: var(--primary);
 }
 .kulay{
   position: relative;
-  bottom: 0.96rem;
+  bottom: 0.98rem;
 }
+
 
 
 /* Footer Starts */
@@ -410,10 +419,7 @@ object-fit: cover;
 .red{
   color: var(--primary);
 }
-.repair-details{
-  padding-left:0 ;
-  padding-right: 0;
-}
+
 .card-img-top{
   transition: all 0.3s;
 
@@ -582,6 +588,7 @@ tbody{
 }
 .know-us img {
   border-radius: 30px;
+
 }
 .download video {
   max-width: 100%;
@@ -603,6 +610,9 @@ tbody{
 .marquee .card {
   border: none;
  
+}
+.card-text p{
+  text-align: justify;
 }
 
 /* about ends */
@@ -639,9 +649,6 @@ tbody{
   border:none;
 }
 
-label {
-  font-size: 18px;
-}
 
 .form button {
   padding: 12px 10px;

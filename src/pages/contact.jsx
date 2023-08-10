@@ -14,7 +14,7 @@ const contact = () => {
         </div>
       </section>
 
-      <div className="contact-wrapper-details p-5">
+      <div className="contact-wrapper-details p-3 p-md-5 p-lg-5">
     <div className="container-xxl">
       <div className="row text-center align-items-center">
         <div className="col-lg-6 col-md-12 p-3">
@@ -23,24 +23,24 @@ const contact = () => {
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
-            <div className="card p-5">
+            <div className="card p-3">
                 <h2 className='footer-title mb-3'><b>Contact Us</b></h2>
                   <p className='mb-2'><b>Address:</b>  Brgy Tubig Tubig Baha Sampaguita </p>
                   <p className='mb-2'><b>Phone:</b>  <a className='footer-tel' href="tel:+1234567890">Call us at (+63) 0923423423</a></p>
                   <p className='mb-4'><b>Hours:</b>  From 8 a.m To 6 p.m</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quos iusto rerum architecto a eaque consequuntur impedit! Harum earum iste, suscipit soluta, culpa necessitatibus quia sit nulla doloremque officia cum.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic veniam unde numquam in ullam laudantium odit explicabo itaque! Voluptate similique, accusantium consequatur provident soluta quaerat maxime adipisci vero sed.</p>
+                  <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quos iusto rerum architecto a eaque consequuntur impedit! Harum earum iste, suscipit soluta, culpa necessitatibus quia sit nulla doloremque officia cum.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic veniam unde numquam in ullam laudantium odit explicabo itaque! Voluptate similique, accusantium consequatur provident soluta quaerat maxime adipisci vero sed.</p>
             </div>
           </div>
       </div>
     </div>
   </div>
 
-      <section className="form p-5">
+      <section className="form p-3 p-sm-5 p-lg-5">
         <div className="container-xxl">
           <div className="row">
             <div className="d-flex justify-content-center align-items-center">
-              <div className="card col-8 p-5">
+              <div className="card col-12 col-lg-6 p-3 p-lg-5">
                 <div className="text-center mb-3">
                   <h2>Send Us A Message</h2>
                 </div>
@@ -48,8 +48,8 @@ const contact = () => {
                   <div className="col-6 p-2">
                     <input
                       type="text"
-                      className="form-control p-3"
-                      placeholder="Enter First Name"
+                      className="form-control p-2"
+                      placeholder="First Name"
                       aria-label="Enter First Name"
                       aria-describedby="basic-addon2"
                     />
@@ -57,31 +57,32 @@ const contact = () => {
                   <div className="col-6 p-2">
                     <input
                       type="text"
-                      className="form-control p-3"
-                      placeholder="Enter Second Name"
+                      className="form-control p-2"
+                      placeholder="Last Name"
                       aria-label="Enter Second Name"
                       aria-describedby="basic-addon2"
                     />
                   </div>
                 </div>
                 <div className="p-2 mb-3">
-                  <label className="mb-2">Enter Your Email Address</label>
+                 
                   <input
                     type="email"
-                    className="form-control p-3"
-                    placeholder="Enter Email"
-                    aria-label="Enter First Name"
+                    className="form-control p-"
+                    placeholder="Email Address"
+                    aria-label="First Name"
                     aria-describedby="basic-addon2"
                   />
                 </div>
 
-                <div className="form-floating p-2 mb-4">
+                <div className=" p-2 mb-4">
                   <textarea
                     className="form-control"
                     placeholder="Leave a comment here"
                     id="floatingTextarea"
+                    rows={4}
                   ></textarea>
-                  <label for="floatingTextarea">Type in your message</label>
+               
                 </div>
                 <button type="submit" className=" button-deals p-3">
                   Submit

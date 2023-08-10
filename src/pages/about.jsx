@@ -37,14 +37,14 @@ const about = () => {
           <div className="row">
             
               <div className="col-md-6">
-                <img src={a6} alt="" className="img-fluid p-3" />
+                <img src={a6} alt="" className="img-fluid p-2" />
               </div>
-            <div className="col-md-6 d-flex flex-column  align-items-center justify-content-center  p-3">
+            <div className="col-md-6 d-flex flex-column  align-items-center justify-content-center ">
                 <div className="mb-3">
                   <h1>Who are We?</h1>
                 </div>
                 <div className="mb-3 card-text">
-                  <p className="justify-text-center">
+                  <p className="text-justify">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum, voluptatibus maxime? Eaque qui veniam earum aliquam
                     accusamus blanditiis harum explicabo ipsum. Cupiditate

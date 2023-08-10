@@ -1,42 +1,60 @@
-import React from 'react'
-import icon1 from '../assets/images/icons/a1.jpg'
-import icon2 from '../assets/images/icons/a2.jpg'
-import icon3 from '../assets/images/icons/a3.jpg'
-import icon4 from '../assets/images/icons/a4.jpg'
-import icon5 from '../assets/images/icons/icon5.png'
-import icon6 from '../assets/images/icons/icon6.png'
+import React from "react";
+import "react-slideshow-image/dist/styles.css";
+import { Zoom, Fade, Slide } from "react-slideshow-image";
 
+import icon1 from "../assets/images/icons/a1.jpg";
+import icon2 from "../assets/images/icons/a2.jpg";
+import icon3 from "../assets/images/icons/a3.jpg";
+import icon4 from "../assets/images/icons/a4.jpg";
+
+const slideImages = [
+  {
+    url: "https://images.unsplash.com/photo-1508853363419-a9263d752c59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+   
+  },
+  {
+    url: "https://images.unsplash.com/photo-1507297448044-a99b358cd06e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1568&q=80",
+ 
+  },
+  {
+    url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+   
+  },
+];
+const divStyles = {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  height: "110vh",
+  backgroundSize: "cover ",
+};
+const spanStyles = {
+  fontSize: "20px",
+  background: "#efefef",
+  color: "#000000",
+};
 
 const hero = () => {
-  return <>
-    <section className=" kulay">
-    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-    <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={icon1} className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={icon2} className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={icon3} className="d-block w-100" alt="..." />
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-    </section>
-  </>
-}
-export default hero
+  return (
+    <>
+    <div className="kulay">
+      <div className="slide-container ">
+        <Slide slidesToScroll={1} slidesToShow={1} indicators={true} >
+          {slideImages.map((image, index) => (
+            <div  key={index}>
+              <div 
+                style={{ ...divStyles, backgroundImage: `url(${image.url})` }}
+              >
+                <span style={spanStyles}>{image.caption}</span>
+              </div>
+            </div>
+          ))}
+        </Slide>
+      </div>
+      </div>
+    </>
+  );
+};
+export default hero;

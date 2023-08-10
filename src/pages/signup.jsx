@@ -23,12 +23,12 @@ const Signup = () => {
   
 
   return (
-    <section className="login-wrapper p-5">
+    <section className="login-wrapper p-3 p-sm-5">
       <div className="container-xxl">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-8 col-sm-10">
               <div className="card">
-                <div className="card-body p-5">
+                <div className="card-body p-3 p-sm-5">
                   <h2 className="text-center">Sign Up</h2>
                   <p className="text-center mb-3">Join us in shopping!!</p>
                   <form onSubmit={handleSubmit}>

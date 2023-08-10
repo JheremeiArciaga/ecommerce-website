@@ -1,12 +1,8 @@
 import React, { useContext, useState } from "react";
 import { BiSearch } from "react-icons/bi";
-
 import { Link, useLocation, NavLink } from "react-router-dom";
 import logo from "../assets/images/apneck.png";
-
 import { AiOutlineUser, AiOutlineShoppingCart} from "react-icons/ai";
-
-
 import { ShopContext } from "./shopcontext";
 import compare from "../assets/images/compare.svg";
 import wishlist from "../assets/images/wishlist.svg";
@@ -316,9 +312,9 @@ const header = () => {
             <div className="menu-bar__actions">
               <div className="mb-2">
                 <Link
-                  to=""
+                  to="Women"
                   className={
-                    location.pathname === "/" ? "active" : "not-active"
+                    location.pathname === "/Women" ? "active" : "not-active"
                   }
                   onClick={toggleMenu}
                 >
@@ -328,9 +324,9 @@ const header = () => {
               </div>
               <div className="mb-2">
                 <Link
-                  to=""
+                  to="Men"
                   className={
-                    location.pathname === "/" ? "active" : "not-active"
+                    location.pathname === "/Men" ? "active" : "not-active"
                   }
                   onClick={toggleMenu}
                 >
