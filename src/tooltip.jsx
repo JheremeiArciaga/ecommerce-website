@@ -1,5 +1,5 @@
 import { Tooltip as ReactTooltip } from "react-tooltip";
-import "./app.css";
+import "./App.css";
 
 export default function App() {
   return (
