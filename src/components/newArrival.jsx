@@ -2,9 +2,6 @@ import React from 'react'
 import {PRODUCTS1} from './products'
 import { Fragment } from 'react'
 
-
-
-
 const newArrival = () => {
   return (
     <>

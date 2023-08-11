@@ -1,11 +1,7 @@
 import React from "react";
 import "react-slideshow-image/dist/styles.css";
-import { Zoom, Fade, Slide } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image";
 
-import icon1 from "../assets/images/icons/a1.jpg";
-import icon2 from "../assets/images/icons/a2.jpg";
-import icon3 from "../assets/images/icons/a3.jpg";
-import icon4 from "../assets/images/icons/a4.jpg";
 
 const slideImages = [
   {
