@@ -25,7 +25,7 @@ const shop = () => {
         </div>
       </section>
 
-      <section className="shop-products p-5 m-auto">
+      <section className="shop-products p-3 p-lg-5 m-auto">
 <div className="container-xxl">
   <div className="row">
     <Shopitems />

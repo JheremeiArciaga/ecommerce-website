@@ -40,6 +40,9 @@ overflow-x: hidden;
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
 }
+ul{
+  padding-left: 0;
+}
 a{
   text-decoration: none;
   font-weight: 500;
