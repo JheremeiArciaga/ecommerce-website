@@ -459,9 +459,12 @@ object-fit: cover;
   right: 0;
   height: fit-content;
 }
+
 .headerest h5, .headerest-women h5{
   color: var(--primary3);
+  
   }
+
   /* parehas lang naman sila ng styling kaya may kuwit */
 .headerest .comport, .headerest-women .comport{
     background-color: #333;
