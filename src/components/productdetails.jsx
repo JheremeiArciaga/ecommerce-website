@@ -25,7 +25,7 @@ const productdetails = () => {
         </div>
 
         <div className="col card p-3">
-          <div className="p-4">
+          <div className="p-2 p-sm-4">
             <span>{product.brand}</span>
             <h3 className="my-3">{product.name}</h3>
             <div className="card-details">
@@ -61,7 +61,7 @@ const productdetails = () => {
             />
 
             <button
-              className="add-btn mx-2"
+              className="add-btn mx-2 mb-3"
               onClick={() => {
                 removeToCart(product.id);
               }}
@@ -69,7 +69,7 @@ const productdetails = () => {
               {" "}
               -
             </button>
-            <div className="input-group p-4">
+            <div className="input-group p-2 p-sm-4">
               <input
                 type="text"
                 className="form-control"
