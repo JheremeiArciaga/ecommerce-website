@@ -463,7 +463,7 @@ object-fit: cover;
   color: var(--primary3);
   }
   /* parehas lang naman sila ng styling kaya may kuwit */
-.headerest highlight, .headerest-women highlight{
+.headerest .comport, .headerest-women .comport{
     background-color: #333;
     padding: 0.5rem;
   }

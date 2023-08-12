@@ -112,17 +112,7 @@ const header = () => {
                     SHOP
                   </NavLink>
                 </div>
-                <div className="mx-2">
-                  <NavLink
-                    to="/men"
-                    className={
-                      location.pathname === "/men" ? "active" : "not-active"
-                    }
-                    onClick={toggleMenu}
-                  >
-                    MEN
-                  </NavLink>
-                </div>
+                
                 <div className="mx-2">
                   <NavLink
                     to="/women"
@@ -132,6 +122,17 @@ const header = () => {
                     onClick={toggleMenu}
                   >
                     WOMEN
+                  </NavLink>
+                </div>
+                <div className="mx-2">
+                  <NavLink
+                    to="/men"
+                    className={
+                      location.pathname === "/men" ? "active" : "not-active"
+                    }
+                    onClick={toggleMenu}
+                  >
+                    MEN
                   </NavLink>
                 </div>
                 <div className="mx-2">
@@ -277,6 +278,28 @@ const header = () => {
               <div className="mb-2">
                 <NavLink
                   className={
+                    location.pathname === "/WOMEN" ? "active" : "not-active"
+                  }
+                  to="/WOMEN"
+                  onClick={toggleMenu}
+                >
+                  WOMEN
+                </NavLink>
+              </div>
+              <div className="mb-2">
+                <NavLink
+                  className={
+                    location.pathname === "/MEN" ? "active" : "not-active"
+                  }
+                  to="/MEN"
+                  onClick={toggleMenu}
+                >
+                  MEN
+                </NavLink>
+              </div>
+              <div className="mb-2">
+                <NavLink
+                  className={
                     location.pathname === "/blog" ? "active" : "not-active"
                   }
                   to="/blog"
@@ -310,30 +333,6 @@ const header = () => {
             </div>
 
             <div className="menu-bar__actions">
-              <div className="mb-2">
-                <Link
-                  to="Women"
-                  className={
-                    location.pathname === "/Women" ? "active" : "not-active"
-                  }
-                  onClick={toggleMenu}
-                >
-                  <img src={compare} alt="compare" className="d-none" />
-                  <span>Women</span>
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="Men"
-                  className={
-                    location.pathname === "/Men" ? "active" : "not-active"
-                  }
-                  onClick={toggleMenu}
-                >
-                  <img src={compare} alt="compare" className="d-none" />
-                  <span>Men</span>
-                </Link>
-              </div>
               <div className="mb-2">
                 <Link
                   to=""
