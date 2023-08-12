@@ -75,8 +75,8 @@ h2{
   color: var(--primary1);
   font-size: 32px;
   margin: 10px;
-  /* 17 to 32 */
-  font-size: clamp(1.0625rem, -0.1094rem + 3.75vw, 2rem);
+  /* 19 to 32 */
+  font-size: clamp(1.1875rem, 0.1719rem + 3.25vw, 2rem);
 }
 h5{
   /* 12 to 18 */
