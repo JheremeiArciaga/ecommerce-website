@@ -9,14 +9,14 @@ import { PRODUCTS } from "./products";
 const featuredProducts = () => {
   return (
     <>
-      <div className="row mt-4 row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 p-3 m-auto">
+      <div className="row mt-4 row-cols-2 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3  m-auto">
         {PRODUCTS.slice(2, 6).map((product) => (
           <div className="col" key={product.id}>
-            <div className="card h-100 m-auto p-3">
+            <div className="card h-100 m-auto p-2 p-md-3">
               <img
                 src={product.image}
                 alt=""
-                className="card-img-top img-fluid m-auto p-3"
+                className="card-img-top img-fluid m-auto mb-2"
               />
               <div className="card-details">
                 <div className="tittle mb-3">
@@ -24,7 +24,7 @@ const featuredProducts = () => {
                   <h5>{product.name}</h5>
                 </div>
                 <div className="card-footer text-center mb-3">
-                  <p className="mb-3">{product.status}</p>
+                  <p className="mb-3 d-none d-md-block">{product.status}</p>
                   <p>
                     <strike className="text-danger">{product.rate}</strike>
                   </p>

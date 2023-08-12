@@ -93,21 +93,20 @@ const about = () => {
               <h1>What our Customers Say</h1>
               <p>Get To know what our trusted customers say</p>
             </div>
+            <div className="row row-cols-1 row-cols-md-2">
             <div className=" p-2">
               <div className="card blog-details-page mb-3 ">
                 <div className=" d-flex">
-                  <div className="col-4">
+                  <div className="col-4  ">
                     <img src={img1} alt="" className="img-fluid card-img-top" />
                   </div>
-                  <div className="card-body col-8 p-4">
+                  <div className="card-body  p-4">
                     <span>
                       <b>Precious Sakalam Bale</b>
                     </span>
                     <p className="my-3">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Rerum vel reprehenderit doloribus quas! Quidem 
-                      
-                      
                     </p>
                   </div>
                 </div>
@@ -216,6 +215,7 @@ const about = () => {
                     </p>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

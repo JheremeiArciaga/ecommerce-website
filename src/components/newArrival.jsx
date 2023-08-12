@@ -5,7 +5,7 @@ import { Fragment } from 'react'
 const newArrival = () => {
   return (
     <>
-      <div className="row row-cols-1  row-cols-md-2 row-cols-lg-4 g-4 p-3 ">
+      <div className="row row-cols-2  row-cols-md-2 row-cols-lg-4 g-3 ">
         {PRODUCTS1.slice(1, 5).map((product) => (
           <Fragment key={product.id}>
             <div className="col">

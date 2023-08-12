@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const blogs = () => {
   return <>
-  <section className="blogs p-5">
+  <section className="blogs p-2 p-md-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 text-center">

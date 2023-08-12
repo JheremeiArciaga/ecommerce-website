@@ -9,7 +9,7 @@ import pay from "../assets/images/pay/pay.png";
 const footer = () => {
   return (
     <>
-      <section className="news-letter p-5">
+      <section className="news-letter p-3 p-md-5">
         <div className="container-xxl">
           <div className="row g-3">
             <div className="col-md-6">

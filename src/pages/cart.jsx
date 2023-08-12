@@ -87,7 +87,7 @@ const cart = () => {
         </div>
       </section>
      ) : (
-      <section className="p-4 ">
+      <section className="py-5 px-4">
         <div className="container-xxl pb-4">
           <div className="row">
             <div className="d-flex justify-content-center my-3 " >

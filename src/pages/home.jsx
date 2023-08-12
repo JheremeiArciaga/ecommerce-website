@@ -32,7 +32,7 @@ const home = () => {
       </section>
       <Hero />
 
-      <section className="featured-products p-5">
+      <section className="featured-products p-1 p-lg-5 py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="text-center">
@@ -48,12 +48,12 @@ const home = () => {
       </section>
       </Link>
 
-      <section className="new-products p-5">
+      <section className="new-products p-md-5 py-5 p-1">
         <div className="container-xxl">
-          <div className="row">
+          <div className="">
             <div className="text-center">
               <h1>New Arrivals</h1>
-              <p>Your Best Designer Outfits</p>
+              <p className="mb-5">Your Best Designer Outfits</p>
             </div>
             <NewArrival />
           </div>
@@ -72,7 +72,7 @@ const home = () => {
         </div>
       </section>
 
-      <section className="hot-deals p-5 d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start ">
+      <section className="hot-deals p-3 p-md-5 d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start ">
         <div className="container-xxl">
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-12">

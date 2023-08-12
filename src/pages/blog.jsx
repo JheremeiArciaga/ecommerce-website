@@ -1,4 +1,5 @@
 import React from "react";
+import vid from "../assets/images/blog/video.mp4";
 import img1 from "../assets/images/blog/b1.jpg";
 import img2 from "../assets/images/blog/b2.jpg";
 import img3 from "../assets/images/blog/b3.jpg";
@@ -188,7 +189,27 @@ const blog = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="container-xxl mb-4 aspring p-lg-5">
+        <div className="row row-cols-1 row-cols-md-2 ">
+          <div className="col">
+            <div className="card video-blog">
+              <video loop controls src={vid}></video>
+            </div>
           </div>
+          <div className="col  d-flex align-items-center ">
+            <div className="card  ">
+             <div className=" p-2 p-lg-5 pb-lg-4">
+              <h2 className="py-1 py-lg-0">Beautiful CEO of Precious Fashion</h2>
+              <hr className="w-80"/>
+              <p className="text-justify p-3 p-lg-0">Radiating both intelligence and grace, our CEO's striking presence captures attention the moment she enters a room. Her elegance isn't confined to appearance alone; her visionary leadership and empathetic demeanor make her a true embodiment of beauty from within. With a captivating smile that reflects confidence and warmth, she effortlessly commands respect while fostering a welcoming atmosphere for all. Beyond her stunning exterior lies a sharp mind that navigates challenges with finesse, inspiring those around her to reach greater heights. In both form and essence</p>
+<h5 className="mt-3 text-decoration-underline fw-bold p-3 p-lg-0">Learn more</h5>
+             </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

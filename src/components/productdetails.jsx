@@ -18,14 +18,14 @@ const productdetails = () => {
 
   return (
     <>
-      <div className="d-flex  ">
+      <div className="d-flex   ">
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
         <div className="col card">
           <img src={product.image} alt="" className="img-fluid p-1 py-3 p-sm-4" />
         </div>
 
-        <div className="col card p-3">
-          <div className="p-2 p-sm-4">
+        <div className="col card p-3 text-card ">
+          <div className="p-2 p-sm-4 ">
             <span>{product.brand}</span>
             <h3 className="my-3">{product.name}</h3>
             <div className="card-details">
@@ -33,7 +33,7 @@ const productdetails = () => {
                 Was <strike className="text-danger">{product.price * 2}</strike>{" "}
                 &nbsp; Now <span className="price">${product.price}</span>
               </p>
-              <p className="mb-3">
+              <p className="mb-3 ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
                 tenetur in nemo esse, quasi rem incidunt ipsum quisquam eius
                 excepturi. Lorem ipsum dolor sit amet consectetur adipisicing

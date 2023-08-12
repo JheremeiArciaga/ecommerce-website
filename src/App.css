@@ -59,6 +59,7 @@ p{
   font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
   
 }
+
 h1{
   font-weight: 600;
   color: var(--search);
@@ -569,6 +570,21 @@ tbody{
   padding: 20px;
   border-radius: 15px;
 }
+.blog-details{
+  text-align: justify;
+}
+.aspring{
+  padding-bottom: 6rem;
+}
+
+.video-blog video{
+  height:400px;
+  width: 100%;
+  border: none;
+}
+.card p{
+text-align: justify;
+}
 
 .card-footer {
   color: var(--darken);
@@ -596,8 +612,8 @@ tbody{
   border-radius: 30px;
 }
 .blogs img {
-  width: 15rem;
-  padding: 20px;
+  width: 100%;
+  padding: 15px;
   border-radius: 15px;
 }
 .marquee img {
