@@ -45,7 +45,7 @@ const blog = () => {
                       </p>
 
                       <div className="card-footer mt-4">
-                        <pd>Last updated: now</pd>
+                        <div>Last updated: now</div>
                       </div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ const blog = () => {
                       </p>
 
                       <div className="card-footer mt-4">
-                        <pd>Last updated: now</pd>
+                        <div>Last updated: now</div>
                       </div>
                     </div>
                   </div>
@@ -113,7 +113,7 @@ const blog = () => {
                       </p>
 
                       <div className="card-footer mt-4">
-                        <pd>Last updated: now</pd>
+                        <div>Last updated: now</div>
                       </div>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ const blog = () => {
                       </p>
 
                       <div className="card-footer mt-4">
-                        <pd>Last updated: now</pd>
+                        <div>Last updated: now</div>
                       </div>
                     </div>
                   </div>
@@ -181,7 +181,7 @@ const blog = () => {
                       </p>
 
                       <div className="card-footer mt-4">
-                        <pd>Last updated: now</pd>
+                        <div>Last updated: now</div>
                       </div>
                     </div>
                   </div>
@@ -195,7 +195,7 @@ const blog = () => {
       <section className="container-xxl mb-4 aspring p-lg-5">
         <div className="row row-cols-1 row-cols-md-2 ">
           <div className="col">
-            <div className="card video-blog">
+            <div className=" video-blog ">
               <video loop controls src={vid}></video>
             </div>
           </div>

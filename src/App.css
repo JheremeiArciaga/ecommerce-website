@@ -595,6 +595,14 @@ text-align: justify;
 .card-footer {
   color: var(--darken);
 }
+@media (max-width: 530px){
+  .video-blog video{
+    height:100%;
+    padding: 1rem;
+    width:100%;
+    border: none;
+  }
+}
 
 /* Blog ends */
 
