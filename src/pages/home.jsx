@@ -5,7 +5,7 @@ import FeaturedProducts from "../components/featuredProducts";
 import NewArrival from "../components/newArrival";
 import img1 from "../assets/images/banner/beige1.png";
 import img2 from "../assets/images/banner/beige2.png";
-import Blogs from "../components/blogs";
+import Testimonial from "../components/testimonial";
 
 const home = () => {
   return (
@@ -146,7 +146,7 @@ Get your orders faster than before. UNIQLO now offers Next Day Home Delivery wit
            
               
           
-          <Blogs />
+          <Testimonial />
      
   
 

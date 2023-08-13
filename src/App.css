@@ -79,13 +79,11 @@ h2{
   font-size: clamp(1.1875rem, 0.1719rem + 3.25vw, 2rem);
 }
 h5{
-  /* 12 to 18 */
-  font-size: clamp(0.75rem, 0.2813rem + 1.5vw, 1.125rem);
+  /* 12 to 17 */
+  font-size: clamp(0.75rem, 0.3594rem + 1.25vw, 1.0625rem);
 }
 span{
   border-radius: 20px;
- 
-  
 }
 button{
   padding: 12px 10px;
@@ -97,7 +95,6 @@ button{
   border:0;
 }
 button:hover{
- 
   transform: scale(1.1);
 }
 .kulay button{
@@ -305,6 +302,12 @@ color: var(--body);
   height: 45vh;
   border-radius: 1rem;
 }
+.elips{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 @media only screen and (max-width: 767px) {
   .banner .back-details {
@@ -313,6 +316,7 @@ color: var(--body);
     text-align: center;
   }
 }
+
 .button-repair{
 padding: 12px 10px;
   font-size: 18px;
@@ -375,6 +379,7 @@ padding: 12px 10px;
   font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
 }
 /* footer end */
+
 /* SHOP */
 .shop-banner{
   background: url(./assets/images/banner/b1.png);
@@ -406,7 +411,7 @@ padding: 12px 10px;
 .shop-products .card{
   overflow: hidden;
   border-radius: 20px;
-  max-width: 250px;
+  max-width: 230px;
 }
 .shop-products .card img{
 object-fit: cover;
@@ -426,13 +431,15 @@ object-fit: cover;
 .red{
   color: var(--primary);
 }
-
-.card-img-top{
+.card .card-img-top{
   transition: all 0.3s;
+  max-height:280px;
 
 }
-.card-img-top:hover{
-  transform: scale(1.15);
+.card .card-img-top:hover{
+  transform: scale(1.1);
+  
+  
 }
 
 /* shop end */
@@ -814,3 +821,9 @@ padding: 24px 1rem !important;
     max-width: 100%;
    }
 }
+/* login */
+.login-wrapper{
+margin-bottom: 2rem ;
+
+}
+/* login end */

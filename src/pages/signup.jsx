@@ -23,14 +23,14 @@ const Signup = () => {
   
 
   return (
-    <section className="login-wrapper p-3 p-sm-5">
+    <section className="login-wrapper p-3">
       <div className="container-xxl">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-8 col-sm-10">
               <div className="card">
-                <div className="card-body p-3 p-sm-5">
+                <div className="card-body p-4 p-md-4">
                   <h2 className="text-center">Sign Up</h2>
-                  <p className="text-center mb-3">Join us in shopping!!</p>
+                  <p className="text-center mb-4">Join us in shopping!!</p>
                   <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                       <label htmlFor="email" className="form-label mb-3">
@@ -40,7 +40,7 @@ const Signup = () => {
                         type="email"
                         className="form-control"
                         id="email"
-                        placeholder="enter email here ..."
+                        placeholder="enter a valid email"
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
                         required
@@ -54,7 +54,7 @@ const Signup = () => {
                         type="password"
                         className="form-control"
                         id="password"
-                        placeholder="enter password here..."
+                        placeholder=""
                         value={password}
                         onChange={(event) => setPassword(event.target.value)}
                         required
@@ -71,7 +71,7 @@ const Signup = () => {
                         type="password"
                         className="form-control"
                         id="confirmPassword"
-                        placeholder="rewrite password here..."
+                        placeholder=""
                         value={confirmPassword}
                         onChange={(event) =>
                           setConfirmPassword(event.target.value)
@@ -82,15 +82,15 @@ const Signup = () => {
                     {error && (
                       <div className="alert alert-danger">{error}</div>
                     )}
-                    <div className="d-flex justify-content-between align-items-center mb-3">
-                      <p>
+                    <div className="d-flex justify-content-between mb-3">
+                      <p className='m-0'>
                         Have an account?
                       </p>
                       <Link to="/login" className="form-link">
                         Log In
                       </Link>
                     </div>
-                    <div className="d-grid gap-2">
+                    <div className="d-grid gap-2 pb-3">
                       <button type="submit">Sign Up</button>
                     </div>
                   </form>

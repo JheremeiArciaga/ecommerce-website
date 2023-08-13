@@ -16,14 +16,14 @@ const featuredProducts = () => {
               <img
                 src={product.image}
                 alt=""
-                className="card-img-top img-fluid m-auto mb-2"
+                className="card-img-top img-fluid m-auto mb-3 mb-sm-4"
               />
               <div className="card-details">
                 <div className="tittle mb-3">
                   <span>{product.brand}</span>
-                  <h5>{product.name}</h5>
+                  <h5 className="elips mt-1 mt-sm-2">{product.name}</h5>
                 </div>
-                <div className="card-footer text-center mb-3">
+                <div className="card-footer text-center mb-2">
                   <p className="mb-3 d-none d-md-block">{product.status}</p>
                   <p>
                     <strike className="text-danger">{product.rate}</strike>

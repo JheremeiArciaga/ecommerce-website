@@ -21,12 +21,12 @@ const Login = () => {
   };
 
   return (
-    <section className="login-wrapper p-3 p-md-5">
+    <section className=" p-3 p-lg-5 py-5">
       <div className="container-xxl">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-8 col-sm-10">
-              <div className="card">
-                <div className="card-body p-3 p-sm-5">
+              <div className="card login-wrapper">
+                <div className="card-body p-3 p-sm-5  ">
                   <h2 className="text-center">LOGIN</h2>
                   <p className="text-center mb-4">Welcome Back!!</p>
                   <form onSubmit={handleSubmit}>
@@ -38,7 +38,7 @@ const Login = () => {
                         type="email"
                         className="form-control"
                         id="email"
-                        placeholder="enter email here ..."
+                        placeholder="enter a valid email"
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
                         required
@@ -52,7 +52,7 @@ const Login = () => {
                         type="password"
                         className="form-control"
                         id="password"
-                        placeholder="enter password here..."
+                        placeholder="password "
                         value={password}
                         onChange={(event) => setPassword(event.target.value)}
                         required

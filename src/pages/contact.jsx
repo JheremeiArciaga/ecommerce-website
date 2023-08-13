@@ -19,7 +19,7 @@ const contact = () => {
       <div className="row text-center align-items-center">
         <div className="col-lg-6 col-md-12 p-3">
           <div className="map card m-auto embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73653.94189754016!2d120.99024997031871!3d14.020470665400454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7388d0c3640d%3A0xc50ce4d4abd98d25!2sTaal%20Volcano!5e0!3m2!1sen!2sph!4v1691220997938!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73653.94189754016!2d120.99024997031871!3d14.020470665400454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7388d0c3640d%3A0xc50ce4d4abd98d25!2sTaal%20Volcano!5e0!3m2!1sen!2sph!4v1691220997938!5m2!1sen!2sph" loading="lazy" ></iframe>
           </div>
         </div>
         <div className="col-lg-6 col-md-12">

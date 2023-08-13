@@ -31,7 +31,7 @@ export const PRODUCTS = [
     image: pr1,
     name: "Slim Fit Dress Shirt",
     price: 54.9,
-    brand: "Calvin Klein",
+    brand: "Sheout",
   },
   {
     id: 1,
@@ -152,7 +152,7 @@ export const PRODUCTS = [
   },
 ];
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const PRODUCTS1 = [
   {
     id: 16,

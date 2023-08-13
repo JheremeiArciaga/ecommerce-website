@@ -6,7 +6,7 @@ import blog4 from "../assets/images/blog/blog-4.jpg"
 import { Link } from 'react-router-dom'
 
 
-const blogs = () => {
+const testimonial = () => {
   return <>
   <section className="blogs p-2 p-md-5">
         <div className="container-xxl">
@@ -17,9 +17,10 @@ const blogs = () => {
                 Our customers never miss a bit on providing feedback
               </p>
             </div>
+
             <div className="col-md-3 col-sm-6 mb-4">
               <div className="card">
-                <img src={blog1} className="card-img-top img-fluid w-100 " alt="..." />
+                <img src={blog1} className="card-img-topping img-fluid w-100 " alt="..." />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -82,4 +83,4 @@ const blogs = () => {
   </>
 }
 
-export default blogs
+export default testimonial
