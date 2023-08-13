@@ -40,7 +40,7 @@ const hero = () => {
         <Slide slidesToScroll={1} slidesToShow={1} indicators={true} >
           {slideImages.map((image, index) => (
             <div  key={index}>
-              <div 
+              <div className="styling"
                 style={{ ...divStyles, backgroundImage: `url(${image.url})` }}
               >
                 <span style={spanStyles}>{image.caption}</span>

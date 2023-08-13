@@ -11,7 +11,7 @@ const blog = () => {
     <>
       <section className="blog-wrapper"></section>
 
-      <section className="blog-details p-5">
+      <section className="blog-details p-2 p-md-5">
         <div className="container-xxl container">
           <div className="row">
             <div className="text-center mb-5">

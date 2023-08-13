@@ -224,8 +224,10 @@ color: var(--primary);
   background-color:transparent;
   color: var(--primary1);
   padding: 0.2em 0.6em;
+
   
 }
+
 /* .nav-links-nav, .social-icons a{
   color: var(--search);
 } */
@@ -376,10 +378,11 @@ padding: 12px 10px;
 /* SHOP */
 .shop-banner{
   background: url(./assets/images/banner/b1.png);
-  background-position: center;
+  background-position: calc(20%);
   background-size: cover;
   width: 100%;
   height: 30vh;
+  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.4);
 }
 .price{
   color: var(--primary);
@@ -445,6 +448,7 @@ object-fit: cover;
   object-fit: cover;
   width: 100%;
   height: 100vh;
+  
 }
 
 .headerest {
@@ -563,9 +567,10 @@ tbody{
 /* blog starts */
 .blog-wrapper {
   background: url(./assets/images/banner/b19.png);
-  background-position: center;
+  background-position:calc(90%);
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.1);
   width: 100%;
   max-width:100%;
   height: 30vh;
@@ -609,11 +614,11 @@ text-align: justify;
 /* About Starts */
 .about-wrapper {
   background: url(./assets/images/about/banner.png);
-  background-position: center center;
+  background-position: center ;
   background-size:cover;
    background-repeat: no-repeat;
   width: 100%;
-
+  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.);
   height: 30vh;
 }
 .know-us img {
@@ -651,7 +656,7 @@ text-align: justify;
 
 .contact-wrapper {
   background: url(./assets/images/back.png);
-  background-position: center;
+  background-position: calc(15%);
   background-size: cover;
   max-width: 100%;
  object-fit: cover;
