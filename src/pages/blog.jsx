@@ -9,7 +9,7 @@ import img5 from "../assets/images/blog/b5.jpg";
 const blog = () => {
   return (
     <>
-      <section className="blog-wrapper"></section>
+      <section className="blog-wrapper mb-5"></section>
 
       <section className="blog-details p-2 p-md-5">
         <div className="container-xxl container">

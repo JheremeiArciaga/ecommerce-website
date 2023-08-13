@@ -6,7 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 const contact = () => {
   return (
     <>
-      <section className="contact-wrapper p-5">
+      <section className="contact-wrapper p-5 mb-5">
         <div className="container-xxl">
           <div className="row">
            

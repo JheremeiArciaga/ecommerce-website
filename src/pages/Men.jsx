@@ -9,7 +9,7 @@ const men = () => {
      
           <article className='article'>
       <img className='imagess' src={Background} alt="background" />
-      <div className="headerest p-4 p-lg-5">
+      <div className="headerest p-2 p-sm-5">
       <h2 className="pb-4 text-white lh-base ">A versatile outer layer made with stretchy fabric for <span className='comport rounded fw-medium px-2 text-white'>Comport</span> </h2>
        <h5 className="ps-2">Comfort Jacket</h5>
        <h2 className="text-danger">P 2990</h2>
