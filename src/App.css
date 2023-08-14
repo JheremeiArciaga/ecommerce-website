@@ -47,7 +47,7 @@ a{
   text-decoration: none;
   font-weight: 500;
   transition: 0.5 ease;
-  color: var(--primary3);
+
  
 }
 a:hover {
@@ -524,12 +524,11 @@ object-fit: cover;
 input{
   padding: 12px;
   width: 45px;
-  
   color: #FF6000;
   font-size: 16px;
   font-weight: 600;
-
 }
+
 .cart-item img{
   max-width: 100%;
   height: 160px;
@@ -554,6 +553,9 @@ tbody{
 
 .input-group button{
   border: 1px solid var(--lighter);
+}
+.cart-end{
+  margin: 3rem 0;
 }
 
 /* cart ends */
@@ -824,6 +826,8 @@ padding: 24px 1rem !important;
 /* login */
 .login-wrapper{
 margin-bottom: 2rem ;
-
 }
+
+
+
 /* login end */
