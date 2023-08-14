@@ -658,6 +658,9 @@ text-align: justify;
 .card-text p{
   text-align: justify;
 }
+.font-title{
+  font-size: clamp(0.8125rem, 0.5781rem + 0.75vw, 1rem);
+}
 
 /* about ends */
 
