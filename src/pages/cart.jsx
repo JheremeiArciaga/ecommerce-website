@@ -47,11 +47,14 @@ const cart = () => {
                 <th className="col-3">Coupons</th>
               </thead>
 
-              {[...PRODUCTS, ...PRODUCTS1].map((product) => {
+              {/* {[...PRODUCTS, ...PRODUCTS1].map((product) => {
                 if (cartItems[product.id] !== 0) {
                   return <Cartitems key={product.id} data={product} />;
                 }
-              })}
+              })} */}
+              {[...PRODUCTS, ...PRODUCTS1].filter((product) => cartItems[product.id] !== 0).map((product) => {
+  return <Cartitems key={product.id} data={product} />;
+})}
 
               <div className="mb-3 text-center p-3">
                 <Link onClick={() => ClearCart(id)}>Clear cart</Link>

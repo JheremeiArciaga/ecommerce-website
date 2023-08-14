@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (password == '') {
+    if (password === '') {
       setError('Please enter correct details!');
     } else {
       // TODO: Send signup request to server
@@ -59,7 +59,7 @@ const Login = () => {
                       />
                     </div>
                     {error && (
-                      <div className="alert alert-danger">{error}</div>
+                      <div className="alert alert-success">{error}</div>
                     )}
                     <div className="mb-3">
                       <Link to="/forgotpasword" className="form-link">
