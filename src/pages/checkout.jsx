@@ -3,7 +3,7 @@ import React, { useContext} from 'react'
 import { Link } from 'react-router-dom';
 import pay from '../assets/images/pay/pay.png'
 import { ShopContext } from '../components/shopcontext';
-import Img from '../components/img';
+import Img from '../components/Imge';
 
 
 

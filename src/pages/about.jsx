@@ -19,7 +19,7 @@ import orders8 from "../assets/images/icons/icons9.png";
 import orders9 from "../assets/images/icons/icons10.png";
 
 import Marquee from "react-fast-marquee";
-import Img from "../components/img";
+import Img from "../components/Imge";
 
 
 const about = () => {

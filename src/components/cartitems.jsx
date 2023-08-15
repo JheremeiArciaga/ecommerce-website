@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./shopcontext";
-import Img from "./img";
+import Img from "./Imge";
 
 const cartitems = (props) => {
   const { id, name, image, price, brand } = props.data;

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../components/shopcontext";
 import { PRODUCTS, PRODUCTS1 } from "./products";
-import Img from "./img";
+import Img from "./Imge";
 
 
 const productdetails = () => {

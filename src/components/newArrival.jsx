@@ -1,8 +1,7 @@
-import React from 'react'
-import {PRODUCTS1} from './products'
-import { Fragment } from 'react'
-import Img from './img';
-
+import React from "react";
+import { PRODUCTS1 } from "./products";
+import { Fragment } from "react";
+import Img from "./Imge";
 
 const newArrival = () => {
   return (
@@ -12,11 +11,15 @@ const newArrival = () => {
           <Fragment key={product.id}>
             <div className="col">
               <div className="card h-100 m-auto p-2 p-sm-3">
-                <Img src={product.image} alt="" className="card-img-top img-fluid mb-3 " />
+                <Img
+                  src={product.image}
+                  alt=""
+                  className="card-img-top img-fluid mb-3 "
+                />
                 <div className="card-details">
                   <div className="tittle mb-3">
-                    <span >{product.brand}</span>
-                    <h5 className='elips mt-1 mt-sm-2'>{product.name}</h5>
+                    <span>{product.brand}</span>
+                    <h5 className="elips mt-1 mt-sm-2">{product.name}</h5>
                   </div>
                   <div className="card-footer text-center mb-2">
                     <p className="mb-2">{product.status}</p>
@@ -33,4 +36,4 @@ const newArrival = () => {
     </>
   );
 };
-export default newArrival
+export default newArrival;

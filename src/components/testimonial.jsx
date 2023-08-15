@@ -1,16 +1,15 @@
-import React from 'react'
-import blog1 from "../assets/images/blog/blog-1.jpg"
-import blog2 from "../assets/images/blog/blog-2.jpg"
-import blog3 from "../assets/images/blog/blog-3.jpg"
-import blog4 from "../assets/images/blog/blog-4.jpg"
-import { Link } from 'react-router-dom'
-import Img from './img'
-
-
+import React from "react";
+import blog1 from "../assets/images/blog/blog-1.jpg";
+import blog2 from "../assets/images/blog/blog-2.jpg";
+import blog3 from "../assets/images/blog/blog-3.jpg";
+import blog4 from "../assets/images/blog/blog-4.jpg";
+import { Link } from "react-router-dom";
+import Img from "./Imge";
 
 const testimonial = () => {
-  return <>
-  <section className="blogs p-2 p-md-5">
+  return (
+    <>
+      <section className="blogs p-2 p-md-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 text-center">
@@ -22,7 +21,11 @@ const testimonial = () => {
 
             <div className="col-md-3 col-sm-6 mb-4">
               <div className="card">
-                <Img src={blog1} className="card-img-topping img-fluid w-100 " alt="..." />
+                <Img
+                  src={blog1}
+                  className="card-img-topping img-fluid w-100 "
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -37,7 +40,11 @@ const testimonial = () => {
 
             <div className="col-md-3 col-sm-6 mb-4">
               <div className="card">
-                <Img src={blog2} className="card-img-top img-fluid w-100" alt="..." />
+                <Img
+                  src={blog2}
+                  className="card-img-top img-fluid w-100"
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -52,7 +59,11 @@ const testimonial = () => {
 
             <div className="col-md-3 col-sm-6 mb-4">
               <div className="card">
-                <Img src={blog3} className="card-img-top img-fluid w-100" alt="..." />
+                <Img
+                  src={blog3}
+                  className="card-img-top img-fluid w-100"
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -67,7 +78,11 @@ const testimonial = () => {
 
             <div className="col-md-3 col-sm-6 mb-4">
               <div className="card">
-                <Img src={blog4} className="card-img-top img-fluid w-100" alt="..." />
+                <Img
+                  src={blog4}
+                  className="card-img-top img-fluid w-100"
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -82,7 +97,8 @@ const testimonial = () => {
           </div>
         </div>
       </section>
-  </>
-}
+    </>
+  );
+};
 
-export default testimonial
+export default testimonial;

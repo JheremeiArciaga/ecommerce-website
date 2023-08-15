@@ -5,7 +5,7 @@ import img2 from "../assets/images/blog/b2.jpg";
 import img3 from "../assets/images/blog/b3.jpg";
 import img4 from "../assets/images/blog/b4.jpg";
 import img5 from "../assets/images/blog/b5.jpg";
-import Img from "../components/img";
+import Img from "../components/Imge";
 
 
 const blog = () => {

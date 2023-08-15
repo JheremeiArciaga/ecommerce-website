@@ -1,8 +1,6 @@
 import React from "react";
 import { PRODUCTS } from "./products";
-import Img from "./img";
-
-
+import Img from "./Imge";
 
 const featuredProducts = () => {
   return (
