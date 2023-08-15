@@ -1,13 +1,15 @@
 import React from 'react'
 import Shopitems from '../components/shopitems'
 import Background from "../assets/images/banner/women-banner.jpg";
+import Img from '../components/img';
+
 const women = () => {
   return <>
   <section className="shop-banner-men ">
         <div className="container-xxl">
           <div className="row justify-content-center align-items-center">
           <article className='article p-0'>
-      <img className='imagess' src={Background} alt="background" />
+      <Img className='imagess' src={Background} alt="background" />
       <div className="headerest-women p-2 p-sm-5">
       <h2 className="pb-4 lh-base ">A versatile outer layer made with <br /> stretchy fabric for <span className='comport rounded fw-medium px-2 text-white'>Comport</span> </h2>
        <h5 className="pe-2">Comfort Jacket</h5>
