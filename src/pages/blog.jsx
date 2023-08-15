@@ -5,6 +5,8 @@ import img2 from "../assets/images/blog/b2.jpg";
 import img3 from "../assets/images/blog/b3.jpg";
 import img4 from "../assets/images/blog/b4.jpg";
 import img5 from "../assets/images/blog/b5.jpg";
+import Img from "../components/img";
+
 
 const blog = () => {
   return (
@@ -22,7 +24,7 @@ const blog = () => {
               <div className="card  blog-details-page">
                 <div className="row g-0 g-lg-5">
                   <div className="col-md-5 col-lg-4 blog-image">
-                    <img
+                    <Img
                       src={img1}
                       alt=""
                       className="img-fluid rounded-start"
@@ -56,7 +58,7 @@ const blog = () => {
               <div className="card  blog-details-page mb-3 ">
                 <div className="row g-0 g-lg-5">
                   <div className="col-md-5 col-lg-4 blog-image">
-                    <img
+                    <Img
                       src={img2}
                       alt=""
                       className="img-fluid rounded-start"
@@ -90,7 +92,7 @@ const blog = () => {
               <div className="card  blog-details-page mb-3 ">
                 <div className="row g-0 g-lg-5">
                   <div className="col-md-5 col-lg-4 blog-image">
-                    <img
+                    <Img
                       src={img3}
                       alt=""
                       className="img-fluid rounded-start"
@@ -124,7 +126,7 @@ const blog = () => {
               <div className="card  blog-details-page mb-3 ">
                 <div className="row g-0 g-lg-5">
                   <div className="col-md-5 col-lg-4 blog-image">
-                    <img
+                    <Img
                       src={img4}
                       alt=""
                       className="img-fluid rounded-start"
@@ -158,7 +160,7 @@ const blog = () => {
               <div className="card  blog-details-page mb-3 ">
                 <div className="row g-0 g-lg-5">
                   <div className="col-md-5 col-lg-4 blog-image">
-                    <img
+                    <Img
                       src={img5}
                       alt=""
                       className="img-fluid rounded-start"

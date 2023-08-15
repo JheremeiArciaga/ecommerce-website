@@ -3,6 +3,8 @@ import { ShopContext } from './shopcontext';
 import ReactStars from "react-rating-stars-component";
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import Img from './img';
+
 
 const prod = (props) => {
 const{id, name, image, price, brand} = props.data;

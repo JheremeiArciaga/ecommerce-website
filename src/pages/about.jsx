@@ -19,6 +19,8 @@ import orders8 from "../assets/images/icons/icons9.png";
 import orders9 from "../assets/images/icons/icons10.png";
 
 import Marquee from "react-fast-marquee";
+import Img from "../components/img";
+
 
 const about = () => {
   return (
@@ -32,7 +34,7 @@ const about = () => {
       <section className="know-us p-5 mb-3">
         <div className="row">
           <div className="col-md-6">
-            <img src={a6} alt="" className="img-fluid p-2" />
+            <Img src={a6} alt="" className="img-fluid p-2" />
           </div>
           <div className="col-md-6 d-flex flex-column  align-items-center justify-content-center ">
             <div className="mb-3">
@@ -88,7 +90,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img1}
                         alt=""
                         className="img-fluid card-img-topping w-100"
@@ -111,7 +113,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img2}
                         alt=""
                         className="img-fluid card-img-topping w-100"
@@ -133,7 +135,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img3}
                         alt=""
                         className="img-fluid card-img-topping w-100"
@@ -155,7 +157,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img4}
                         alt=""
                         className="img-fluid card-img-topping w-100"
@@ -177,7 +179,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img1}
                         alt=""
                         className="img-fluid card-img-topping w-100"
@@ -199,7 +201,7 @@ const about = () => {
                 <div className="card blog-details-page mb-3 ">
                   <div className="">
                     <div className="">
-                      <img
+                      <Img
                         src={img2}
                         alt=""
                         className="img-fluid card-img-topping w-100"

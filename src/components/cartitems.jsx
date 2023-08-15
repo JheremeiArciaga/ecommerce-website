@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./shopcontext";
+import Img from "./img";
 
 const cartitems = (props) => {
   const { id, name, image, price, brand } = props.data;
@@ -16,7 +17,7 @@ const cartitems = (props) => {
         <tr>
           <td>
             <div className="p-3">
-              <img src={image} alt="" className="img-fluid " />
+              <Img src={image} alt="" className="img-fluid " />
             </div>
           </td>
           <td>

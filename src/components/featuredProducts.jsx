@@ -1,11 +1,9 @@
 import React from "react";
 import { PRODUCTS } from "./products";
+import Img from "./img";
 
 
-/**
- * Renders a list of featured products.
- * @returns {JSX.Element} The JSX code to render the featured products.
- */
+
 const featuredProducts = () => {
   return (
     <>
@@ -13,7 +11,7 @@ const featuredProducts = () => {
         {PRODUCTS.slice(2, 6).map((product) => (
           <div className="col" key={product.id}>
             <div className="card h-100 m-auto p-2 p-md-3">
-              <img
+              <Img
                 src={product.image}
                 alt=""
                 className="card-img-top img-fluid m-auto mb-3 mb-sm-4"

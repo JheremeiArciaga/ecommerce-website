@@ -3,6 +3,8 @@ import React, { useContext} from 'react'
 import { Link } from 'react-router-dom';
 import pay from '../assets/images/pay/pay.png'
 import { ShopContext } from '../components/shopcontext';
+import Img from '../components/img';
+
 
 
 const checkout = () => {
@@ -31,7 +33,7 @@ const checkout = () => {
                     <span>Paypal</span>
                   </div>
                   <div className='col-6'>
-                    <img src={pay} alt="" className='img-fluid' />
+                    <Img src={pay} alt="" className='img-fluid' />
                   </div>
                 </div>
               </button>
@@ -50,7 +52,7 @@ const checkout = () => {
                   <span>Credit card</span>
                   </div>
                   <div className="icons col-6">
-                    <img src={pay} alt="" className='img-fluid' />
+                    <Img src={pay} alt="" className='img-fluid' />
                   </div>
                 </div>
               </button>

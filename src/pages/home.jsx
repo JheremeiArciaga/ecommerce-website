@@ -6,6 +6,8 @@ import NewArrival from "../components/newArrival";
 import img1 from "../assets/images/banner/beige1.png";
 import img2 from "../assets/images/banner/beige2.png";
 import Testimonial from "../components/testimonial";
+import Img from "../components/img";
+
 
 const home = () => {
   return (
@@ -79,7 +81,7 @@ const home = () => {
               <div className="card m-auto mb-3 text-md-start text-sm-center">
                 <div className="row g-0">
                   <div className="col-md-4 ">
-                    <img
+                    <Img
                       src={img1}
                       className="img-fluid rounded-start p-sm-2 p-md-2 deliver"
                       alt="..."
@@ -109,7 +111,7 @@ const home = () => {
               <div className="card w-100 height-100 m-auto mb-3">
                 <div className="row g-0">
                   <div className="col-md-4 ">
-                    <img
+                    <Img
                       src={img2}
                       className="img-fluid rounded-start p-sm-2 p-md-2 deliver"
                       alt="..."

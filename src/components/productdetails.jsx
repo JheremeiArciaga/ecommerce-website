@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../components/shopcontext";
 import { PRODUCTS, PRODUCTS1 } from "./products";
+import Img from "./img";
+
 
 const productdetails = () => {
   const {
@@ -21,7 +23,7 @@ const productdetails = () => {
       <div className="d-flex   ">
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
         <div className="col card">
-          <img src={product.image} alt="" className="img-fluid p-1 py-3 p-sm-4" />
+          <Img src={product.image} alt="" className="img-fluid p-1 py-3 p-sm-4" />
         </div>
 
         <div className="col card p-3 text-card ">
@@ -91,7 +93,7 @@ const productdetails = () => {
                   <div className="col-3">
                     <div key={product.id}>
                       <div className="card h-100 m-auto ">
-                        <img
+                        <Img
                           src={product.image}
                           alt=""
                           className="card-img-top img-fluid m-auto p-2"
@@ -106,7 +108,7 @@ const productdetails = () => {
                   <div className="col-3">
                     <div key={product.id}>
                       <div className="card h-100 m-auto ">
-                        <img
+                        <Img
                           src={product.image}
                           alt=""
                           className="card-img-top img-fluid m-auto p-2"

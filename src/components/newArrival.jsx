@@ -1,6 +1,8 @@
 import React from 'react'
 import {PRODUCTS1} from './products'
 import { Fragment } from 'react'
+import Img from './img';
+
 
 const newArrival = () => {
   return (
@@ -10,7 +12,7 @@ const newArrival = () => {
           <Fragment key={product.id}>
             <div className="col">
               <div className="card h-100 m-auto p-2 p-sm-3">
-                <img src={product.image} alt="" className="card-img-top img-fluid mb-3 " />
+                <Img src={product.image} alt="" className="card-img-top img-fluid mb-3 " />
                 <div className="card-details">
                   <div className="tittle mb-3">
                     <span >{product.brand}</span>
