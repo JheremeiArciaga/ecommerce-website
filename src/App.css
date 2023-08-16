@@ -469,10 +469,8 @@ object-fit: cover;
   right: 0;
   height: fit-content;
 }
-
 .headerest h5, .headerest-women h5{
   color: var(--primary3);
-  
   }
 
   /* parehas lang naman sila ng styling kaya may kuwit */
@@ -482,9 +480,6 @@ object-fit: cover;
   }
 /* men end */
 /* women */
-
-
-
 .headerest-women {
   font-size: 80px;
   color: var(--primary3);

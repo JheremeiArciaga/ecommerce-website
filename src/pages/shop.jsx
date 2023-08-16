@@ -4,9 +4,9 @@ import Shopitems from '../components/shopitems'
 const shop = () => {
   return <>
   <section className="shop-banner p-2">
+    
         <div className="container-xxl">
           <div className="row justify-content-center align-items-center">
-      
             <div className="repair-details text-center py-5">
               <span className="text-white ">
                 Repair Services

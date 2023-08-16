@@ -1,6 +1,8 @@
 import React from "react";
 import Shopitems from "../components/shopitems";
 import Background from "../assets/images/banner/men-banner.jpg";
+import Img from "../components/Imge";
+
 
 const men = () => {
   return (
@@ -8,7 +10,7 @@ const men = () => {
      
      
           <article className='article'>
-      <img className='imagess' src={Background} alt="background" />
+      <Img className='imagess' src={Background} alt="background" />
       <div className="headerest p-2 p-sm-5">
       <h2 className="pb-4 text-white lh-base ">A versatile outer layer made with stretchy fabric for <span className='comport rounded fw-medium px-2 text-white'>Comport</span> </h2>
        <h5 className="ps-2">Comfort Jacket</h5>
