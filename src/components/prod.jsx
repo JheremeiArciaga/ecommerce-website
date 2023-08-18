@@ -51,7 +51,8 @@ const prod = (props) => {
               </div>
               <div className="col-6 d-flex align-items-center justify-content-around">
                 <button className="add-btn" onClick={() => addToCart(id)}>
-                  Add To Cart {cartItemCount > 0 && `(${cartItemCount})`}{" "}
+                  Add To Cart {cartItemCount > 0 }{" "}
+                  {/* && `(${cartItemCount})` */}
                 </button>
               </div>
             </div>

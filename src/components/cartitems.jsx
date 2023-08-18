@@ -15,28 +15,27 @@ const cartitems = (props) => {
     <>
       <tbody key={id}>
         <tr>
-          <td>
-            <div className="p-3">
+        
+            <div className="p-3 px-1 ">
               <Img src={image} alt="" className="img-fluid " />
             </div>
-          </td>
-          <td>
+          <td className="">
             <p>
-              Product Brand: <span className="price">{brand}</span>{" "}
+              Brand: <span className="price">{brand}</span>{" "}
             </p>
             <p>
-              Product Name: <h5 className="price">{name}</h5>
+              Name: <h5 className="price">{name}</h5>
             </p>
             <p>
-              Product Price: <span className="price">{price}</span>
+              Price: <span className="price">{price}</span>
             </p>
             <p>
-              Items In Stock: <span className="text-danger">340</span>
+              Stock: <span className="text-danger">340</span>
             </p>
           </td>
           <td>
             <button
-              className="add-btn mx-2"
+              className="add-btn mx-1 mx-sm-2"
               onClick={() => {
                 addToCart(id);
               }}
@@ -48,10 +47,11 @@ const cartitems = (props) => {
               type="text"
               value={cartItems[id]}
               onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
+              
             />
 
             <button
-              className="add-btn mx-2"
+              className="add-btn mx-1 mx-sm-2"
               onClick={() => {
                 removeToCart(id);
               }}
@@ -61,7 +61,7 @@ const cartitems = (props) => {
             </button>
           </td>
 
-          <td>
+          <td className=" d-none d-sm-flex">
             <div className="input-group p-3">
               <input
                 type="text"

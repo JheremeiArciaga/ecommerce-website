@@ -33,18 +33,19 @@ const cart = () => {
 
 
   return  <>
-    {TotalAmount > 0 ? ( <section className="cart-item p-4 ">
+    {TotalAmount > 0 ? ( <section className="cart-item p-3 p-sm-4 pe-0">
       <div className="d-flex justify-content-center pb-5">
         <span>Cart &gt; <span className="text-body-secondary">Place Order&gt; Pay&gt; Order Complete</span></span> 
       </div>
-        <div className="container-xxl ">
+        <div className="container-xxl px-1 px-md-5">
           <div className="row">
             <table>
-              <thead className="my-2">
-                <th className="col-3">Product Image</th>
-                <th className="col-3">Product Details</th>
-                <th className="col-3">Edit</th>
-                <th className="col-3">Coupons</th>
+              <thead className="my-2 px-0">
+                
+                <th className="col-3 col-sm-0"></th>
+                <th className="col-3">Item</th>
+                <th className="col-3">Quantity</th>
+                <th className="col-3 d-none d-sm-block text-center">Coupons</th>
               </thead>
 
               {/* {[...PRODUCTS, ...PRODUCTS1].map((product) => {
@@ -72,11 +73,11 @@ const cart = () => {
       </div>
     
 
-        <div className=" cart-total col-12 col-md-6 total m-auto d-flex flex-column ">
+        <div className=" cart-total col-12 col-md-6 total m-auto d-flex flex-column pe-4 ">
          
           <div className="col-12 text-end">
-          <h3>Total</h3>
-        <p className="my-2">Total Products:{" "}<span className="price">{totalProducts}</span>{" "}</p>
+          <h3>Order Total</h3>
+        <p className="my-2">Total Products:{" "}<span className="price">{totalProducts}</span>{""}</p>
           <p className="price mb-4">${TotalAmount}</p>
 
           <button
