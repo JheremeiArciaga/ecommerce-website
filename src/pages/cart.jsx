@@ -39,15 +39,15 @@ const cart = () => {
               </span>
             </span>
           </div>
-          <div className="container-xxl px-1 px-md-5">
+          <div className="container-xxl px-1 px-md-5 pb-5">
             <div className="row">
               <table>
-                <thead className="my-2 px-0">
-                  <th className="col-3 col-sm-0"></th>
-                  <th className="col-3">Item</th>
+                <thead className="my-2 px-0 ">
+                  <th className="col-3 col-sm-0 "></th>
+                  <th className="col-4 ">Item</th>
                   <th className="col-3">Quantity</th>
                   <th className="col-3 d-none d-sm-block text-center">
-                    Coupons
+                  
                   </th>
                 </thead>
 
@@ -71,7 +71,7 @@ const cart = () => {
               <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
-              <div className="mb-3 bg-dark p-2 me-3 mt-2">
+              <div className="mb-3 bg-dark p-2 me-md-3 mt-2">
                 <Link className="text-white palitan" onClick={() => ClearCart(id)}>
                   Clear cart
                 </Link>
@@ -79,15 +79,16 @@ const cart = () => {
             </div>
 
             <div className=" cart-total col-12 col-md-12 total  pe-4 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end">
-              <div className="border rounded col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-4  ps-md-0 ">
-                <div className="">
-                  <h3>Order Total</h3>
+              <div className="border rounded col-8 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 ">
+                <div className="text-center">
+                  <h3>Order Summary</h3>
                   <p className="my-2">
                     Total Products:{" "}
                     <span className="price">{totalProducts}</span>
                     {""}
                   </p>
-                  <p className="price mb-4">${TotalAmount}</p>
+                  <p className="price mb-0">${TotalAmount}</p>
+                  <hr />
 
                   <button onClick={() => navigate("/checkout")}>
                     {isMobile ? "Check Out" : "Proceed to Checkout"}

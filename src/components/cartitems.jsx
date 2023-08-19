@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./shopcontext";
+import { MdDeleteOutline } from "react-icons/md";
 import Img from "./Imge";
 
 const cartitems = (props) => {
@@ -14,27 +15,28 @@ const cartitems = (props) => {
   return (
     <>
       <tbody key={id}>
-        <tr>
-        
-            <div className="p-3 px-1 ">
-              <Img src={image} alt="" className="img-fluid " />
-            </div>
-          <td className="">
+        <tr className="border-bottom">
+          <div className="p-3 px-1 ">
+            <Img src={image} alt="" className="img-fluid " />
+          </div>
+          <td className="px-2 ">
             <p>
               Brand: <span className="price">{brand}</span>{" "}
             </p>
             <p>
-              Name: <h5 className="price">{name}</h5>
+              <h5 className="price mb-0">{name}</h5>
             </p>
             <p>
-              Price: <span className="price">{price}</span>
+              <span className="price">
+                <span className="text-black fs-5">&#8369;</span> {price}
+              </span>
             </p>
             <p>
               Stock: <span className="text-danger">340</span>
             </p>
           </td>
           <td>
-          <button
+            <button
               className="add-btns border-0 mx-1 mx-sm-2 p-0"
               onClick={() => {
                 removeToCart(id);
@@ -43,16 +45,15 @@ const cartitems = (props) => {
               {" "}
               -
             </button>
-           
+
             <input
-            className="quan"
+              className="quan"
               type="text"
               value={cartItems[id]}
               onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
-              
             />
- <button
-              className="add-btns border-0 mx-1 mx-sm-2 p-0"
+            <button
+              className="add-btns border-0 mx-1 mx-sm-2 p-0 overflow-hidden"
               onClick={() => {
                 addToCart(id);
               }}
@@ -60,10 +61,17 @@ const cartitems = (props) => {
               {" "}
               +
             </button>
-           
+          </td>
+          <td className="d-none d-sm-flex">
+            <button
+              className="  btn bg-danger text-white btn-outline-danger  border-0"
+              onClick={() => removeToCart(id)}
+            >
+              <MdDeleteOutline />
+            </button>
           </td>
 
-          <td className=" d-none d-sm-flex">
+          {/* <td className=" d-none d-sm-flex">
             <div className="input-group p-3">
               <input
                 type="text"
@@ -76,7 +84,7 @@ const cartitems = (props) => {
                 Search
               </button>
             </div>
-          </td>
+          </td> */}
         </tr>
       </tbody>
     </>
