@@ -11,6 +11,8 @@ const productdetails = () => {
     cartItems,
     closeProductDetails,
     selectedProduct,
+    removeToCart,
+    updateCartItemCount,
   } = useContext(ShopContext);
   const productId = selectedProduct || 0;
 
@@ -33,7 +35,7 @@ const productdetails = () => {
             <div className="card-details">
               <p className="my-3">
                 Was <strike className="text-danger">{product.price * 2}</strike>{" "}
-                &nbsp;Now <span className="price">${product.price}</span>
+                &nbsp; Now <span className="price">${product.price}</span>
               </p>
               <p className="mb-3 ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam

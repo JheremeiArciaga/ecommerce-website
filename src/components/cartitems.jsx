@@ -70,21 +70,6 @@ const cartitems = (props) => {
               <MdDeleteOutline />
             </button>
           </td>
-
-          {/* <td className=" d-none d-sm-flex">
-            <div className="input-group p-3">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Enter Coupon code"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
-              />
-              <button className="input-group-text" id="basic-addon2">
-                Search
-              </button>
-            </div>
-          </td> */}
         </tr>
       </tbody>
     </>
