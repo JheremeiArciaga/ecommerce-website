@@ -34,24 +34,8 @@ const cartitems = (props) => {
             </p>
           </td>
           <td>
-            <button
-              className="add-btn mx-1 mx-sm-2"
-              onClick={() => {
-                addToCart(id);
-              }}
-            >
-              {" "}
-              +
-            </button>
-            <input
-              type="text"
-              value={cartItems[id]}
-              onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
-              
-            />
-
-            <button
-              className="add-btn mx-1 mx-sm-2"
+          <button
+              className="add-btns border-0 mx-1 mx-sm-2 p-0"
               onClick={() => {
                 removeToCart(id);
               }}
@@ -59,6 +43,24 @@ const cartitems = (props) => {
               {" "}
               -
             </button>
+           
+            <input
+            className="quan"
+              type="text"
+              value={cartItems[id]}
+              onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
+              
+            />
+ <button
+              className="add-btns border-0 mx-1 mx-sm-2 p-0"
+              onClick={() => {
+                addToCart(id);
+              }}
+            >
+              {" "}
+              +
+            </button>
+           
           </td>
 
           <td className=" d-none d-sm-flex">
