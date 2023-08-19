@@ -639,7 +639,7 @@ text-align: justify;
   background-size:cover;
    background-repeat: no-repeat;
   width: 100%;
-  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.);
+  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.2);
   height: 30vh;
 }
 .know-us img {
@@ -680,11 +680,12 @@ text-align: justify;
 
 .contact-wrapper {
   background: url(./assets/images/back.png);
-  background-position: calc(15%);
+  background-position: calc(20%);
   background-size: cover;
   max-width: 100%;
  object-fit: cover;
   height: 30vh;
+  box-shadow: inset 100px 100px 50px 100px rgba(0,0,0,0.2);
 }
 .contact-wrapper-details .card{
   border: none;
