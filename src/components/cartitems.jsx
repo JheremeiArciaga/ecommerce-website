@@ -21,10 +21,10 @@ const cartitems = (props) => {
           </div>
           <td className="px-2 ">
             <p>
-              Brand: <span className="price">{brand}</span>{" "}
+             <span className="price">{brand}</span>{" "}
             </p>
             <p>
-              <h5 className="price mb-0">{name}</h5>
+              <h5 className="price mb-0 text-black fw-bold">{name}</h5>
             </p>
             <p>
               <span className="price">

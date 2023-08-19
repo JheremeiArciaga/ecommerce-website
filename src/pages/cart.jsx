@@ -39,7 +39,7 @@ const cart = () => {
               </span>
             </span>
           </div>
-          <div className="container-xxl px-1 px-md-5 pb-5">
+          <div className="container-xxl px-1 px-md-5 pb-3">
             <div className="row">
               <table>
                 <thead className="my-2 px-0 ">
@@ -64,10 +64,10 @@ const cart = () => {
               </table>
             </div>
           </div>
-          <hr />
+
 
           <div className="row cart-items">
-            <div className="col-12 col-md-12 d-flex m-auto justify-content-between mt-2  ">
+            <div className="col-12 col-md-12 d-flex m-auto justify-content-between  ">
               <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
@@ -79,7 +79,7 @@ const cart = () => {
             </div>
 
             <div className=" cart-total col-12 col-md-12 total  pe-4 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end">
-              <div className="border rounded col-8 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 ">
+              <div className="border rounded col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3 p-4 ">
                 <div className="text-center">
                   <h3>Order Summary</h3>
                   <p className="my-2">
