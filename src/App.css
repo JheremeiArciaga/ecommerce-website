@@ -548,6 +548,7 @@ tbody{
 }
 .cart-items button{
   background: transparent;
+  /* 12to14 */
   font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
   color: black;
   border: 1px solid;
@@ -557,6 +558,10 @@ tbody{
 .input-group button{
   border: 1px solid var(--lighter);
   
+}
+.palitan{
+  /* 12to14 */
+  font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
 }
 .cart-end{
   margin: 3rem 0;

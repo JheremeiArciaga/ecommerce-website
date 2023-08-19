@@ -67,12 +67,12 @@ const cart = () => {
           <hr />
 
           <div className="row cart-items">
-            <div className="col-12 col-md-12 d-flex m-auto justify-content-between mt-2 ">
-              <button onClick={() => navigate("/shop")}>
+            <div className="col-12 col-md-12 d-flex m-auto justify-content-between mt-2  ">
+              <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
               <div className="mb-3 bg-dark p-2 me-3 mt-2">
-                <Link className="text-white" onClick={() => ClearCart(id)}>
+                <Link className="text-white palitan" onClick={() => ClearCart(id)}>
                   Clear cart
                 </Link>
               </div>
