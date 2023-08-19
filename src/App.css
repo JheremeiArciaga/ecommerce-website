@@ -106,7 +106,7 @@ button:hover{
 .kulay button:hover{
   transform: scale(1.1);
 }
-.button-link{
+.button-link, .button-links{
   padding: 12px 10px;
   font-size: 18px;
   border-radius: 10px;
@@ -118,7 +118,7 @@ margin-top: 1rem;
 
 }
 
-.button-link:hover{
+.button-link:hover, .button-links:hover{
   background: transparent;
   color: var(--primary1);
   border: 1px solid var(--primary);
@@ -316,6 +316,7 @@ color: var(--body);
     text-align: center;
   }
 }
+
 
 .button-repair{
 padding: 12px 10px;
