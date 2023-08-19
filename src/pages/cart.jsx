@@ -35,7 +35,7 @@ const cart = () => {
             <span>
               Cart &gt;{" "}
               <span className="text-body-secondary">
-                Place Order&gt; Pay&gt; Order Complete
+                Place Order &gt; Pay &gt; Order Complete
               </span>
             </span>
           </div>

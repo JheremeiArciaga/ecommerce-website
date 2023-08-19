@@ -18,21 +18,31 @@ const checkout = () => {
   };
   
   return <>
-  <section className="checkout p-5">
-    <div className="container-xxl">
+  <section className="checkout">
+  <div className="d-flex justify-content-center pt-5 p-3 p-sm-5">
+            <span>
+              Cart &gt;{" "}
+              <span> Place Order &gt;{" "}
+              <span className="text-body-secondary">
+                Pay &gt; Order Complete
+              </span>
+            </span>
+            </span>
+          </div>
+    <div className="container-xl p-4 p-sm-5 p-lg-5  ">
       <div className="row">
 
-        <div className="col-md-6">
-        <h1 className="mb-4 fs-3">Payment Method</h1>
+        <div className="col-md-6 card  p-3 pb-4 p-sm-4 ">
+        <h1 className="mb-4 fs-4">Payment Method</h1>
         <div className="accordion" id="accordionExample">
           <div className="card">
-            <div className="card-header p-0" id="headingTwo">
-              <button className="btn col-12 btn-light btn-block text-start collapsed p-3 rounded-0 border-bottom-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <div className="card-header overflow-hidden p-0" id="headingTwo">
+              <button className="btn col-12 btn-light btn-block text-start collapsed p-3 ps-4 ps-sm-5 rounded-0 border-bottom-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <div className="d-flex align-items-center justify-content-between">
-                  <div className='col-6'>
+                  <div className='col-4'>
                     <span>Paypal</span>
                   </div>
-                  <div className='col-6'>
+                  <div className='col-4'>
                     <Img src={pay} alt="" className='img-fluid' />
                   </div>
                 </div>
@@ -44,14 +54,14 @@ const checkout = () => {
               </div>
             </div>
           </div>
-          <div className="card m-auto">
+          <div className="card m-auto overflow-hidden">
             <div className="card-header p-0">
-              <button className="btn col-12 btn-light btn-block text-start p-3 rounded-0" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button className="btn col-12 btn-light btn-block text-start p-3 ps-4 ps-sm-5 rounded-0  " data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <div className="d-flex align-items-center justify-content-between">
-                  <div className="col-6">
+                  <div className="col-4">
                   <span>Credit card</span>
                   </div>
-                  <div className="icons col-6">
+                  <div className="icons col-4">
                     <Img src={pay} alt="" className='img-fluid' />
                   </div>
                 </div>
@@ -87,8 +97,8 @@ const checkout = () => {
         </div>
       </div>
 
-      <div className="col-md-6 p-2">
-            <h1 className=" mt-3 mb-3 fs-3">Fill the following details for shipping.</h1>
+      <div className="col-md-6 card p-3 pb-4 p-sm-4">
+            <h1 className=" mt-2 mb-4 fs-4">Fill the following details for shipping.</h1>
             <form className="row g-3 mb-3">
               <div className="col-md-6">
                 <label htmlFor="inputEmail4" className="form-label">Email</label>
