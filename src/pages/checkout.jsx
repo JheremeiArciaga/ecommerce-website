@@ -50,7 +50,7 @@ const checkout = () => {
             </div>
             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div className="card-body">
-                <input type="text" className="form-control" placeholder="Paypal email" required/>
+                <input type="text" className="form-control text-start" placeholder="Paypal email" required/>
               </div>
             </div>
           </div>
@@ -72,21 +72,21 @@ const checkout = () => {
                 <span className="font-weight-normal card-text">Card Number</span>
                 <div className="input mb-4">
                   <i className="fa fa-credit-card"></i>
-                  <input type="text" className="form-control" placeholder="0000 0000 0000 0000" required/>
+                  <input type="text" className="form-control text-start" placeholder="0000 0000 0000 0000" required/>
                 </div>
                 <div className="row mt-3 mb-3">
                   <div className="col-md-6">
                     <span className="font-weight-normal card-text">Expiry Date</span>
                     <div className="input">
                       <i className="fa fa-calendar"></i>
-                      <input type="text" className="form-control" placeholder="MM/YY" required/>
+                      <input type="text" className="form-control text-start" placeholder="MM/YY" required/>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <span className="font-weight-normal card-text">CVC/CVV</span>
                     <div className="input mb-4">
                       <i className="fa fa-lock"></i>
-                      <input type="text" className="form-control" placeholder="000" required/>
+                      <input type="text" className="form-control text-start" placeholder="000" required/>
                     </div>
                   </div>
                 </div>
@@ -102,23 +102,23 @@ const checkout = () => {
             <form className="row g-3 mb-3">
               <div className="col-md-6">
                 <label htmlFor="inputEmail4" className="form-label">Email</label>
-                <input type="email" className="form-control" id="inputEmail4" required />
+                <input type="email" className="form-control text-start" id="inputEmail4" required />
               </div>
               <div className="col-md-6">
                 <label htmlFor="inputPassword4" className="form-label">Password</label>
-                <input type="password" className="form-control" id="inputPassword4" required />
+                <input type="password" className="form-control text-start" id="inputPassword4" required />
               </div>
               <div className="col-12">
                 <label htmlFor="inputAddress" className="form-label">Address</label>
-                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                <input type="text" className="form-control text-start" id="inputAddress" placeholder="1234 Main St" />
               </div>
               <div className="col-12">
                 <label htmlFor="inputAddress2" className="form-label">Address 2</label>
-                <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+                <input type="text" className="form-control text-start" id="inputAddress2" placeholder="Apartment, studio, or floor" />
               </div>
               <div className="col-md-6">
                 <label htmlFor="inputCity" className="form-label">City</label>
-                <input type="text" className="form-control" id="inputCity" />
+                <input type="text" className="form-control text-start" id="inputCity" />
               </div>
               <div className="col-md-4">
                 <label htmlFor="inputState" className="form-label">State</label>

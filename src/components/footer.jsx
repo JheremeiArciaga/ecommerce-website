@@ -14,7 +14,7 @@ const footer = () => {
           <div className="row g-3">
             <div className="col-md-6">
               <div className="d-flex flex-column align-items-center">
-                <h2 className="mb-3 text-white">Subscribe for the latest updates.</h2>
+                <h2 className="mb-3 text-white">Join our newsletter and get 20% off</h2>
                 <h5 className="">
                   to get updates On All <Link>Special Offers</Link>
                 </h5>
@@ -22,8 +22,8 @@ const footer = () => {
               </div>
               <div className="col-md-5 details d-flex flex-column  justify-content-center">
              <div className="input-group">
-            <input type="text" id='news-input' className="form-control" placeholder="Subscribe..." aria-label="@example.com" aria-describedby="basic-addon2" />
-            <button className="input-group-text" id="basic-addon2">Submit</button>
+            <input type="text" id='news-input' className="form-control text-start" placeholder="Enter Email" aria-label="@example.com" aria-describedby="basic-addon2" />
+            <button className="input-group-text " id="basic-addon2">Subscribe</button>
           </div>
         </div>
               </div>
