@@ -33,7 +33,7 @@ const cart = () => {
 
 
   return  <>
-    {TotalAmount > 0 ? ( <section className="cart-item p-3 p-sm-4 pe-0">
+    {TotalAmount > 0 ? ( <section className="cart-item p-3 p-sm-4 pe-2">
       <div className="d-flex justify-content-center pb-5">
         <span>Cart &gt; <span className="text-body-secondary">Place Order&gt; Pay&gt; Order Complete</span></span> 
       </div>
@@ -57,25 +57,25 @@ const cart = () => {
   return <Cartitems key={product.id} data={product} />;
 })}
 
-              <div className="mb-3 text-center p-3">
-                <Link onClick={() => ClearCart(id)}>Clear cart</Link>
-              </div>
             </table>
           </div>
         </div>
         <hr />
 
 <div className="row">
-      <div className="col-12 col-md-6 d-flex m-auto justify-content-between mt-4 ">
+      <div className="col-12 col-md-12 d-flex m-auto justify-content-between mt-2 ">
         <button onClick={() => navigate("/shop")}>
           {isMobile ? "Continue" : "Continue Shopping"}
         </button>
+              <div className="mb-3 bg-dark p-2 me-3">
+                <Link className="text-white" onClick={() => ClearCart(id)}>Clear cart</Link>
+              </div>
       </div>
     
-
-        <div className=" cart-total col-12 col-md-6 total m-auto d-flex flex-column pe-4 ">
+        <div className=" cart-total col-12 col-md-12 total  pe-4 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end">
          
-          <div className="col-12 text-end">
+<div className="border rounded col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-4  ps-md-0 ">
+          <div className="">
           <h3>Order Total</h3>
         <p className="my-2">Total Products:{" "}<span className="price">{totalProducts}</span>{""}</p>
           <p className="price mb-4">${TotalAmount}</p>
@@ -89,6 +89,8 @@ const cart = () => {
         </div>
         </div>
         </div>
+        </div>
+      
       </section>
      ) : (
       <section className="py-5 px-4 cart-end">
