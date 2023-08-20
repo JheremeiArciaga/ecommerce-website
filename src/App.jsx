@@ -16,6 +16,7 @@ import Checkout from "./pages/checkout";
 import Signup from "./pages/signup";
 import Forgotpassword from "./pages/forgotpassword";
 import Tooltip from "./tooltip";
+import PageNotFound from "./pages/pageNotFound";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
               <Route path="signup" element={<Signup />} />
               <Route path="forgotpasword" element={<Forgotpassword />} />
               <Route path="details" element={<Details />} />
+              <Route path="*" element={<PageNotFound />} />
             </Route>
           </Routes>
  

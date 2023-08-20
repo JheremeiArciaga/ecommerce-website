@@ -87,7 +87,7 @@ const cart = () => {
                     <span className="price">{totalProducts}</span>
                     {""}
                   </p>
-                  <p className="price mb-0">${TotalAmount}</p>
+                  <p className="price mb-0"><span className="fs-5">&#8369; </span>{TotalAmount}</p>
                   <hr />
 
                   <button onClick={() => navigate("/checkout")}>

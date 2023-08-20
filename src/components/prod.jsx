@@ -4,15 +4,20 @@ import ReactStars from "react-rating-stars-component";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Img from "./Imge";
-import { ToastContainer, toast, Bounce } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const prod = (props) => {
   const { id, name, image, price, brand } = props.data;
   const { viewProductDetails, addToCart, cartItems } = useContext(ShopContext);
   const cartItemCount = cartItems[id];
-  const notify = () =>toast.success(`Added ${name} to cart`,{position:toast.POSITION.BOTTOM_CENTER,autoClose:1000});
- 
+
+  const notify = () =>
+    toast.success("Added to cart", {
+      position: "top-right",
+      autoClose: 1000,
+      draggable: true,
+    });
 
   return (
     <>
@@ -39,7 +44,7 @@ const prod = (props) => {
               <span className="text-black fs-5">&#8369;</span> {price}{" "}
               <span className="text-danger">
                 {" "}
-                &nbsp;<strike>{price * 2}</strike>
+                &nbsp;<strike>{price * Math.round(1.5)}</strike>
               </span>
             </p>
             <div className="d-flex align-items-center justify-content-around mb-2">
@@ -55,11 +60,19 @@ const prod = (props) => {
               </div>
               <div className="col-6 d-flex align-items-center justify-content-around">
                 <>
-                  <button className="add-btn" onClick={() => {addToCart(id); notify()}}>
-                    Add To Cart {cartItemCount > 0 }{""}
-                    {/* && `(${cartItemCount})` */}
-                  </button>
-                  <ToastContainer transition={Bounce} ></ToastContainer>
+                  <form
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      addToCart(id);
+                      notify();
+                    }}
+                  >
+                    <button type="submit" className="add-btn">
+                      Add To Cart {cartItemCount > 0}
+                      {""}
+                      {/* && `(${cartItemCount})` */}
+                    </button>
+                  </form>
                 </>
               </div>
             </div>
