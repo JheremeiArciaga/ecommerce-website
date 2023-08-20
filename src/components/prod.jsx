@@ -4,14 +4,14 @@ import ReactStars from "react-rating-stars-component";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Img from "./Imge";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const prod = (props) => {
   const { id, name, image, price, brand } = props.data;
   const { viewProductDetails, addToCart, cartItems } = useContext(ShopContext);
   const cartItemCount = cartItems[id];
-  const notify = () =>toast.success(`Added ${name} to cart`)
+  const notify = () =>toast.success(`Added ${name} to cart`,{position:toast.POSITION.BOTTOM_CENTER,autoClose:1000});
  
 
   return (
@@ -59,7 +59,7 @@ const prod = (props) => {
                     Add To Cart {cartItemCount > 0 }{""}
                     {/* && `(${cartItemCount})` */}
                   </button>
-                  <ToastContainer />
+                  <ToastContainer transition={Bounce} ></ToastContainer>
                 </>
               </div>
             </div>

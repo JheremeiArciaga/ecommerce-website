@@ -14,9 +14,9 @@ const footer = () => {
           <div className="row g-3">
             <div className="col-md-6">
               <div className="d-flex flex-column align-items-center">
-                <h2 className="mb-3 text-white">Join our newsletter & get 20% off</h2>
+                <h2 className="mb-3 m-0 text-white">Join our newsletter & 20% off</h2>
                 <h5 className="">
-                  to get updates On All <Link>Special Offers</Link>
+                  to get updates On All <Link className="bg-dark text-white ms-2 p-2">Special Offers</Link>
                 </h5>
                 </div>
               </div>
