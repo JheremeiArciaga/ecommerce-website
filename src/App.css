@@ -19,9 +19,12 @@
   --primary2: #354d61;
   --primary3: #261613;
 }
-.html,
+html,
 body {
   overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
 }
 .tool {
   background-color: #989898;
