@@ -194,7 +194,7 @@ const blog = () => {
         </div>
       </section>
 
-      <section className="container-xxl mb-4 aspring p-lg-5">
+      {/* <section className="container-xxl mb-4 aspring p-lg-5">
         <div className="row row-cols-1 row-cols-md-2 ">
           <div className="col">
             <div className=" video-blog ">
@@ -212,7 +212,7 @@ const blog = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
