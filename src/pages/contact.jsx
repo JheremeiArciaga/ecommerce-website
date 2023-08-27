@@ -48,7 +48,7 @@ const contact = () => {
                   <div className="col-6 p-2">
                     <input
                       type="text"
-                      className="form-control p-2"
+                      className="form-control text-start p-2"
                       placeholder="First Name"
                       aria-label="Enter First Name"
                       aria-describedby="basic-addon2"
@@ -57,7 +57,7 @@ const contact = () => {
                   <div className="col-6 p-2">
                     <input
                       type="text"
-                      className="form-control p-2"
+                      className="form-control text-start p-2"
                       placeholder="Last Name"
                       aria-label="Enter Second Name"
                       aria-describedby="basic-addon2"
@@ -68,8 +68,8 @@ const contact = () => {
                  
                   <input
                     type="email"
-                    className="form-control p-"
-                    placeholder="Email Address"
+                    className="form-control text-start p-2"
+                    placeholder="Enter a valid address"
                     aria-label="First Name"
                     aria-describedby="basic-addon2"
                   />
