@@ -1,5 +1,5 @@
 import React from "react";
-import vid from "../assets/images/blog/video.mp4";
+// import vid from "../assets/images/blog/video.mp4";
 import img1 from "../assets/images/blog/b1.jpg";
 import img2 from "../assets/images/blog/b2.jpg";
 import img3 from "../assets/images/blog/b3.jpg";
