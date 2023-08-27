@@ -124,7 +124,7 @@ button:hover {
 @media only screen and (max-width: 767px) {
   .button-link {
     position: absolute;
-    transform: translate(-50%, 175%);
+    transform: translate(-50%, 50%);
   }
 }
 .links {
@@ -271,7 +271,7 @@ footer {
 }
 
 .banner span {
-  color: var(--body);
+  color: #fdfdfd;
 }
 
 .featured-products .card img {
