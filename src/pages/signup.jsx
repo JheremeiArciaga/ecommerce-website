@@ -34,7 +34,7 @@ const Signup = () => {
                   <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                       <label htmlFor="email" className="form-label mb-3">
-                        Enter Your Email address
+                       Email
                       </label>
                       <input
                         type="email"

@@ -65,7 +65,7 @@ const contact = () => {
                   </div>
                 </div>
                 <div className="p-2 mb-3">
-                 
+                
                   <input
                     type="email"
                     className="form-control text-start p-2"
