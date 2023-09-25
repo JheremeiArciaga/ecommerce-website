@@ -640,6 +640,9 @@ tbody {
   width: 8rem;
   padding: 20px;
   border-radius: 15px;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+ 
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
 }
