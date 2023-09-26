@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import { Link, useLocation, NavLink } from "react-router-dom";
-import logo from "../assets/images/apneck.png";
+import logo from "../assets/images/sheout.png";
 import { AiOutlineUser, AiOutlineShoppingCart} from "react-icons/ai";
 import { ShopContext } from "./shopcontext";
 import compare from "../assets/images/compare.svg";
