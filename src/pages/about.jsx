@@ -3,7 +3,7 @@ import a6 from "../assets/images/about/a6.png";
 import { Link } from "react-router-dom";
 import vid from "../assets/images/about/1.mp4";
 import img1 from "../assets/images/blog/blog-1.jpg";
-import img2 from "../assets/images/blog/blog-2.jpg";
+import img2 from "../assets/images/blog/blog5.jpg";
 import img3 from "../assets/images/blog/blog-3.jpg";
 import img4 from "../assets/images/blog/blog-4.jpg";
 
