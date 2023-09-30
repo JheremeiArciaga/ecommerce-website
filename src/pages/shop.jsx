@@ -5,24 +5,8 @@ const shop = () => {
   return <>
   <section className="shop-banner p-2">
     
-        <div className="container-xxl">
-          <div className="row justify-content-center align-items-center">
-            <div className="repair-details text-center py-5">
-              <span className="text-white ">
-                Repair Services
-                <h2 className="text-white">
-                  On{" "}
-                  <span className="text-success">
-                    <b>50%</b>
-                  </span>{" "}
-                  Off on All Products 
-                </h2>
-              </span>
-              
-            </div>
-           
-          </div>
-        </div>
+       
+
       </section>
 
       <section className="shop-products p-3 p-lg-5 m-auto mt-3">
