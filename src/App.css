@@ -89,7 +89,7 @@ button {
   padding: 12px 10px;
   /* 11-13 */
   font-size: clamp(0.6875rem, 0.5313rem + 0.5vw, 0.8125rem);
-  background-color: var(--primary);
+  background-color: var(--primary3);
   color: white;
   transition: all 0.4s ease;
   border: 0;
@@ -109,7 +109,7 @@ button:hover {
   font-size: 18px;
   border-radius: 10px;
   color: white;
-  background: var(--primary);
+  background: var(--primary3);
   border: 1px solid transparent;
   transition: 0.5s ease;
   margin-top: 1rem;
@@ -391,7 +391,7 @@ footer {
 }
 .add-btn {
   border-radius: 10px;
-  background: var(--primary);
+  background: var(--primary3);
   border: none;
   padding: 12px 10px;
 }

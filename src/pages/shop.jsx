@@ -9,7 +9,7 @@ const shop = () => {
 
       </section>
 
-      <section className="shop-products p-3 p-lg-5 m-auto mt-3">
+      <section className="shop-products p-0 p-sm-3 p-lg-5 m-auto mt-3">
 <div className="container-xxl">
   <div className="row">
     <Shopitems />
