@@ -75,7 +75,7 @@ const header = () => {
                 <div className="input-group d-none d-md-flex  ">
                   <input
                     type="text"
-                    className="form-control "
+                    className="form-control text-start ps-2 "
                     placeholder="Search ..."
                     aria-label="Search ..."
                     aria-describedby="basic-addon2"

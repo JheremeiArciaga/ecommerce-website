@@ -29,7 +29,7 @@ const women = () => {
         </div>
       </section>
 
-      <section className="shop-products p-5 m-auto">
+      <section className="shop-products p-0 p-md-3 p-lg-5 m-auto mt-3">
         <div className="container-xxl">
           <div className="row">
             <Shopitems />

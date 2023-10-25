@@ -21,9 +21,9 @@ const prod = (props) => {
 
   return (
     <>
-      <div key={id} className="col mb-3">
+      <div key={id} className="col mb-0 mb-sm-3 p-1 p-sm-3">
         <div className="card h-100 m-auto">
-          <div className="p-2">
+          <div className="p-1 p-sm-2">
             <Link
               to={"/details"}
               className="view-button "
@@ -32,12 +32,12 @@ const prod = (props) => {
               <img src={image} alt="" className="img-fluid card-img-top" />
             </Link>
           </div>
-          <div className="card-details p-3">
+          <div className="card-details p-3 pt-2">
             <ReactStars
               count={5}
               edit={false}
               value={4}
-              size={24}
+              size={23}
               activeColor="#cca27e"
             />
             <p className="price my-2">
@@ -48,7 +48,7 @@ const prod = (props) => {
               </span>
             </p>
             <div className="d-flex align-items-center justify-content-around mb-2">
-              <div className="col-6 d-flex align-items-center justify-content-around">
+              <div className="col-6 d-flex align-items-center justify-content-around d-none d-sm-flex">
                 <Link
                   to={"/details"}
                   className="view-button"
@@ -58,7 +58,7 @@ const prod = (props) => {
                   View Details
                 </Link>
               </div>
-              <div className="col-6 d-flex align-items-center justify-content-around">
+              <div className="col-12 col-sm-6 d-flex align-items-center justify-content-around">
                 <>
                   <form
                     onSubmit={(e) => {
