@@ -26,7 +26,7 @@ const header = () => {
       </header>
       </Link>
 
-      <header className="navbar-middle sticky-top p-2 text-sm-center  p-md-2 p-lg-2">
+      <header className="navbar-middle sticky-top p-2 text-sm-center  p-md-2 p-lg-2 shadow-sm">
         <div className="container-xxl">
           <div className="row ">
             <nav className="col-md-2 my-auto d-flex justify-content-center"role="navigation">

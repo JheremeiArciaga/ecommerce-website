@@ -6,9 +6,9 @@ import Img from "../components/Imge";
 const women = () => {
   return (
     <>
-      <section className="shop-banner-men ">
+      <section >
         <div className="container-xxl">
-          <div className="row justify-content-center align-items-center">
+          <div className="row justify-content-center align-items-center ">
             <article className="article p-0">
               <Img className="imagess" src={Background} alt="background" />
               <div className="headerest-women p-2 p-sm-5">

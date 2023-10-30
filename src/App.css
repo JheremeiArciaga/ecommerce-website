@@ -290,6 +290,7 @@ footer {
   background-size: cover;
   width: 100%;
   height: 45vh;
+  
   border-radius: 1rem;
 }
 .elips {
@@ -375,10 +376,15 @@ footer {
   background-size: cover;
   width: 100%;
   height: 30vh;
+  margin-bottom: 5rem;
   box-shadow: inset 100px 100px 50px 100px rgba(0, 0, 0, 0.1);
 }
 .price {
-  color: var(--primary);
+  color: #dc4535;
+  font-weight: 900;
+}
+.prices {
+  font-weight:200;
 }
 .view-button {
   transition: 0.5 ease;
@@ -431,6 +437,7 @@ footer {
 
 /* men */
 .article {
+  margin-bottom: 5rem;
   height: 100%;
   position: relative;
   overflow: hidden;

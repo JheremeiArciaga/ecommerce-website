@@ -21,7 +21,7 @@ const prod = (props) => {
 
   return (
     <>
-      <div key={id} className="col mb-0 mb-sm-3 p-1 p-sm-3">
+      <div key={id} className="col mb-0 mb-sm-3 p-1 p-sm-3 mt-0">
         <div className="card h-100 m-auto">
           <div className="p-1 p-sm-2">
             <Link
@@ -41,8 +41,8 @@ const prod = (props) => {
               activeColor="#cca27e"
             />
             <p className="price my-2">
-              <span className="text-black fs-5">&#8369;</span> {price}{" "}
-              <span className="text-danger">
+              <span className="text-danger  fs-5">&#8369;</span> {price}{" "}
+              <span className="text-danger prices">
                 {" "}
                 &nbsp;<strike>{price * Math.round(1.5)}</strike>
               </span>

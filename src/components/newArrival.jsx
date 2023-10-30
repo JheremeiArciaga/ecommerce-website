@@ -6,11 +6,11 @@ import Img from "./Imge";
 const newArrival = () => {
   return (
     <>
-      <div className="row row-cols-2  row-cols-md-2 row-cols-lg-4 g-3 ">
+      <div className="row mt-4 row-cols-2 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3  m-auto">
         {PRODUCTS1.slice(1, 5).map((product) => (
           <Fragment key={product.id}>
             <div className="col">
-              <div className="card h-100 m-auto p-2 p-sm-3">
+              <div className="card h-100 m-auto p-2 p-md-3">
                 <Img
                   src={product.image}
                   alt=""

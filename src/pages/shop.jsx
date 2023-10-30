@@ -3,13 +3,9 @@ import Shopitems from '../components/shopitems'
 
 const shop = () => {
   return <>
-  <section className="shop-banner p-2">
-    
-       
-
-      </section>
-
-      <section className="shop-products p-0 p-md-3 p-lg-5 m-auto mt-3">
+  <div className="shop-banner pb-5">
+      </div>
+      <section className="shop-products p-0 p-md-3 p-lg-5 m-auto ">
 <div className="container-xxl">
   <div className="row">
     <Shopitems />
