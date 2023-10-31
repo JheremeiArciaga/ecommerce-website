@@ -35,20 +35,24 @@ const prod = (props) => {
               {name}
             </div>
           </div>
-          <div className="p-3 pt-0">
-          <div className="d-flex">
-            <ReactStars
+          <div className="p-3 pt-0 pe-1 ">
+            <div className="d-flex">
+          <div className="flex-nowrap">
+            <ReactStars 
               count={5}
              edit={false}
               value={3.5}
               size={17}
               activeColor="#FFB421"
               isHalf={true}
+              
             />
 
-            <p className="sold ms-1 fs-6 elips m-0">{sold}</p>
-
             </div>
+            <p className="sold fs-6 ps-1 m-0 ">
+              <span className="elips text-secondary">{sold}</span>
+              </p>
+              </div>
             <p className="price my-2 ps-1 mt-0">
               <span className="text-danger  fs-6">&#8369;</span> {price}{" "}
               <span className="text-secondary prices">
