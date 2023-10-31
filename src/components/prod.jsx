@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const prod = (props) => {
-  const { id, name, image, price, brand } = props.data;
+  const { id, name, image, price, brand,sold } = props.data;
   const { viewProductDetails, addToCart, cartItems } = useContext(ShopContext);
   const cartItemCount = cartItems[id];
 
@@ -31,27 +31,36 @@ const prod = (props) => {
             >
               <img src={image} alt="" className="img-fluid card-img-top" />
             </Link>
+            <div className="mt-sm-2 p-3 p-sm-2 pb-sm-0 pb-0 elips fw-bold">
+              {name}
+            </div>
           </div>
-          <div className="card-details p-3 pt-2">
+          <div className="p-3 pt-0">
+          <div className="d-flex">
             <ReactStars
               count={5}
-              edit={false}
-              value={4}
-              size={23}
-              activeColor="#cca27e"
+             edit={false}
+              value={3.5}
+              size={17}
+              activeColor="#FFB421"
+              isHalf={true}
             />
-            <p className="price my-2">
-              <span className="text-danger  fs-5">&#8369;</span> {price}{" "}
-              <span className="text-danger prices">
+
+            <p className="sold ms-1 fs-6 elips m-0">{sold}</p>
+
+            </div>
+            <p className="price my-2 ps-1 mt-0">
+              <span className="text-danger  fs-6">&#8369;</span> {price}{" "}
+              <span className="text-secondary prices">
                 {" "}
                 &nbsp;<strike>{price * Math.round(1.5)}</strike>
               </span>
             </p>
-            <div className="d-flex align-items-center justify-content-around mb-2">
-              <div className="col-6 d-flex align-items-center justify-content-around d-none d-sm-flex">
+            <div className="d-flex align-items-center justify-content-around mb-2 ">
+              <div className="col-6 d-flex align-items-center justify-content-around d-none d-sm-flex ">
                 <Link
                   to={"/details"}
-                  className="view-button"
+                  className="view-button "
                   onClick={() => viewProductDetails(id)}
                 >
                   {" "}

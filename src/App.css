@@ -390,7 +390,7 @@ footer {
   transition: 0.5 ease;
   /* 11-13 */
   font-size: clamp(0.6875rem, 0.4531rem + 0.75vw, 0.875rem);
-  color: var(--body);
+  color: green;
 }
 .view-button:hover {
   color: var(--search);
