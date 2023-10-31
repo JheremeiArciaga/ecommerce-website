@@ -3,7 +3,7 @@ import Shopitems from '../components/shopitems'
 
 const shop = () => {
   return <>
-  <div className="shop-banner pb-5">
+  <div className="shop-banner pb-4">
       </div>
       <section className="shop-products p-0 p-md-3 p-lg-5 m-auto ">
 <div className="container-xxl">

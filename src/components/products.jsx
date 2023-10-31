@@ -44,7 +44,7 @@ export const Recommended = [
     brand: "H&M",
     status: "in stock",
     rate: "50% Off",
-    sold:  "10k+ sold",
+    sold:  "10k sold",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ export const Recommended = [
     name: "Women's Classic Fit Crewneck T-Shirt",
     price: 199,
     brand: "Ralph Lauren",
-    sold:  "6.1k sold",
+    sold:  "61 sold",
   },
 ];
 export const BestSeller = [
@@ -96,7 +96,7 @@ export const BestSeller = [
     name: "Men's Tech 2.0 Short Sleeve T-Shirt",
     price: 499,
     brand: "Under Armour",
-    sold:  "1.5k sold",
+    sold:  "15k sold",
   },
 ];
 export const PRODUCTS = [
@@ -156,7 +156,7 @@ export const PRODUCTS = [
     brand: "H&M",
     status: "in stock",
     rate: "50% Off",
-    sold:  "10k+ sold",
+    sold:  "10k sold",
   },
   {
     id: 6,
@@ -174,7 +174,7 @@ export const PRODUCTS = [
     name: "Women's Classic Fit Crewneck T-Shirt",
     price: 199,
     brand: "Ralph Lauren",
-    sold:  "6.1k sold",
+    sold:  "61k sold",
   },
   {
     id: 8,
@@ -182,7 +182,7 @@ export const PRODUCTS = [
     name: "Slim Fit Dress Shirt",
     price: 499,
     brand: "Calvin Klein",
-    sold:  "4.5k sold",
+    sold:  "45k sold",
   },
   {
     id: 9,
@@ -214,7 +214,7 @@ export const PRODUCTS = [
     name: "Men's Tech 2.0 Short Sleeve T-Shirt",
     price: 499,
     brand: "Under Armour",
-    sold:  "1.5k sold",
+    sold:  "15k sold",
   },
   {
     id: 13,
@@ -252,7 +252,7 @@ export const PRODUCTS1 = [
     brand: "Calvin Klein",
     status: "in stock",
     rate: "60% off",
-    sold:  "4.5k sold",
+    sold:  "45k sold",
   },
   {
     id: 17,
