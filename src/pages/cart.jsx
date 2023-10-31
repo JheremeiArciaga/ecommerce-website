@@ -46,16 +46,9 @@ const cart = () => {
                   <th className="col-3 col-sm-0 "></th>
                   <th className="col-5 ">Item</th>
                   <th className="col-3">Quantity</th>
-                  <th className="col-3 d-none d-sm-block text-center">
-                  
-                  </th>
+                  <th className="col-3 d-none d-sm-block text-center"></th>
                 </thead>
 
-                {/* {[...PRODUCTS, ...PRODUCTS1].map((product) => {
-                if (cartItems[product.id] !== 0) {
-                  return <Cartitems key={product.id} data={product} />;
-                }
-              })} */}
                 {[...PRODUCTS, ...PRODUCTS1]
                   .filter((product) => cartItems[product.id] !== 0)
                   .map((product) => {
@@ -65,14 +58,16 @@ const cart = () => {
             </div>
           </div>
 
-
           <div className="row cart-items">
             <div className="col-12 col-md-12 d-flex m-auto justify-content-between ps-md-5 pe-0">
               <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
               <div className="mb-3 bg-dark  p-2 me-3 me-md-5  mt-2">
-                <Link className="text-white palitan" onClick={() => ClearCart(id)}>
+                <Link
+                  className="text-white palitan"
+                  onClick={() => ClearCart(id)}
+                >
                   Clear cart
                 </Link>
               </div>
@@ -87,7 +82,10 @@ const cart = () => {
                     <span className="price">{totalProducts}</span>
                     {""}
                   </p>
-                  <p className="price mb-0"><span className="fs-5">&#8369; </span>{TotalAmount}</p>
+                  <p className="price mb-0">
+                    <span className="fs-5">&#8369; </span>
+                    {TotalAmount}
+                  </p>
                   <hr />
 
                   <button onClick={() => navigate("/checkout")}>

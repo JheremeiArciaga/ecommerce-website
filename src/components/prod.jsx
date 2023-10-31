@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const prod = (props) => {
-  const { id, name, image, price,sold } = props.data;
+  const { id, name, image, price, sold } = props.data;
   const { viewProductDetails, addToCart, cartItems } = useContext(ShopContext);
   const cartItemCount = cartItems[id];
 
@@ -21,7 +21,6 @@ const prod = (props) => {
 
   return (
     <>
-      
       <div key={id} className="col mb-0 mb-sm-3 p-1 p-sm-3 mt-0">
         <div className="card h-100 m-auto ">
           <div className="p-1 p-sm-2">
@@ -38,22 +37,20 @@ const prod = (props) => {
           </div>
           <div className="p-2 p-sm-1 pt-0  ">
             <div className="d-flex ps-1 ps-sm-2">
-          <div className="flex-nowrap">
-            <ReactStars 
-              count={5}
-             edit={false}
-              value={3.5}
-              size={17}
-              activeColor="#FFB421"
-              isHalf={true}
-              
-            />
-
-            </div>
-            <p className="sold fs-6 ps-1 m-0 ">
-              <span className="elips text-secondary ">{sold}</span>
-              </p>
+              <div className="flex-nowrap">
+                <ReactStars
+                  count={5}
+                  edit={false}
+                  value={3.5}
+                  size={17}
+                  activeColor="#FFB421"
+                  isHalf={true}
+                />
               </div>
+              <p className="sold fs-6 ps-1 m-0 ">
+                <span className="elips text-secondary ">{sold}</span>
+              </p>
+            </div>
             <p className="price my-2 ps-1 ps-sm-2 mt-0">
               <span className="text-danger  fs-6">&#8369;</span> {price}{" "}
               <span className="text-secondary prices">
