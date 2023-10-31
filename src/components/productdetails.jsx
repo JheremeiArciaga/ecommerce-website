@@ -2,13 +2,12 @@ import React, { useContext } from "react";
 import { ShopContext } from "../components/shopcontext";
 import { PRODUCTS, PRODUCTS1 } from "./products";
 import Img from "./Imge";
+import ReactStars from "react-rating-stars-component";
 
 const productdetails = () => {
   const {
-    viewProductDetails,
     addToCart,
     cartItems,
-    closeProductDetails,
     selectedProduct,
     removeToCart,
     updateCartItemCount,
@@ -33,10 +32,24 @@ const productdetails = () => {
 
           <div className="col card p-3 text-card ">
             <div className="p-2 p-sm-4 ">
-              <span>{product.brand}</span>
-              <h3 className="my-3">{product.name}</h3>
+              <span className="brands">{product.brand}</span>
+              <h3 className="mt-3">{product.name}</h3>
+
+              <div className="d-flex ps-0 ">
+                <div className="flex-nowrap">
+                  <ReactStars
+                    count={5}
+                    edit={false}
+                    value={3.5}
+                    size={24}
+                    activeColor="#FFB421"
+                    isHalf={true}
+                  />
+                </div>
+              </div>
+
               <div className="card-details">
-                <p className="my-3">
+                <p className="mb-3">
                   Was{" "}
                   <strike className="text-danger">{product.price * 2}</strike>{" "}
                   &nbsp; Now <span className="price">${product.price}</span>

@@ -30,8 +30,8 @@ const cart = () => {
   return (
     <>
       {TotalAmount > 0 ? (
-        <section className="cart-item p-3 p-sm-4 pe-2">
-          <div className="d-flex justify-content-center pb-5">
+        <section className="cart-item p-3 p-sm-4 pe-2 mx-sm-5">
+          <div className="d-flex justify-content-center pb-5 pt-4 ">
             <span>
               Cart &gt;{" "}
               <span className="text-body-secondary">
@@ -44,7 +44,7 @@ const cart = () => {
               <table>
                 <thead className="my-2 px-0 ">
                   <th className="col-3 col-sm-0 "></th>
-                  <th className="col-4 ">Item</th>
+                  <th className="col-5 ">Item</th>
                   <th className="col-3">Quantity</th>
                   <th className="col-3 d-none d-sm-block text-center">
                   
@@ -67,18 +67,18 @@ const cart = () => {
 
 
           <div className="row cart-items">
-            <div className="col-12 col-md-12 d-flex m-auto justify-content-between  ">
+            <div className="col-12 col-md-12 d-flex m-auto justify-content-between ps-md-5 pe-0">
               <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
-              <div className="mb-3 bg-dark p-2 me-md-3 mt-2">
+              <div className="mb-3 bg-dark p-2 me-md-5 mt-2">
                 <Link className="text-white palitan" onClick={() => ClearCart(id)}>
                   Clear cart
                 </Link>
               </div>
             </div>
 
-            <div className=" cart-total col-12 col-md-12 total  pe-4 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end">
+            <div className=" cart-total col-12 col-md-12 total  pe-5 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end ">
               <div className="border rounded col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3 p-4 ">
                 <div className="text-center">
                   <h3>Order Summary</h3>

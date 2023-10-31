@@ -6,7 +6,6 @@ import Img from "./Imge";
 const cartitems = (props) => {
   const { id, name, image, price, brand } = props.data;
   const {
-    viewProductDetails,
     addToCart,
     cartItems,
     removeToCart,
@@ -22,18 +21,18 @@ const cartitems = (props) => {
           </div>
           <td className="px-2 ">
             <p>
-             <span className="price">{brand}</span>{" "}
+             <span className="prices">{brand}</span>{" "}
             </p>
             <p>
-              <h5 className="price mb-0 text-black fw-bold">{name}</h5>
+              <h5 className="price mb-0 text-black fw-bold ms-0 my-2">{name}</h5>
             </p>
             <p>
-              <span className="price">
-                <span className="text-black fs-5">&#8369;</span> {price}
+              <span className="price ms-0">
+                <span className="text-danger fs-5 ">&#8369;</span> {price}
               </span>
             </p>
             <p>
-              Stock: <span className="text-danger">340</span>
+              Stock: <span className="text-secondary">340</span>
             </p>
           </td>
           <td>

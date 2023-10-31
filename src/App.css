@@ -385,6 +385,7 @@ footer {
   margin-left: 0.2rem;
 }
 .prices {
+  color: var(--primary);
   font-weight:200;
 }
 .view-button {
@@ -432,6 +433,9 @@ footer {
 }
 .card .card-img-top:hover {
   transform: scale(1.1);
+}
+.brands{
+  color: var(--primary);
 }
 
 /* shop end */
@@ -532,6 +536,7 @@ thead {
 }
 .cart-item {
   background: white;
+  
 }
 tbody {
   background: white;
