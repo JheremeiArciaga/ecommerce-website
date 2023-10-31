@@ -10,15 +10,16 @@ const shop = () => {
   <div className="row">
     <Shopitems />
   </div>
-
 </div>
       </section>
+
 
       <section className="pagination p-3">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 d-flex align-items-center justify-content-center">
             <nav aria-label="Page navigation example">
+
   <ul className="pagination">
     <li className="page-item">
       <a className="page-link" href="#" aria-label="Previous">

@@ -382,6 +382,7 @@ footer {
 .price {
   color: #dc4535;
   font-weight: 900;
+  margin-left: 0.2rem;
 }
 .prices {
   font-weight:200;

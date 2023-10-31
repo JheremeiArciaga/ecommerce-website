@@ -14,6 +14,7 @@ const cartitems = (props) => {
   } = useContext(ShopContext);
   return (
     <>
+    
       <tbody key={id}>
         <tr className="border-bottom">
           <div className="p-3 px-1 ">

@@ -21,8 +21,9 @@ const prod = (props) => {
 
   return (
     <>
+      
       <div key={id} className="col mb-0 mb-sm-3 p-1 p-sm-3 mt-0">
-        <div className="card h-100 m-auto">
+        <div className="card h-100 m-auto ">
           <div className="p-1 p-sm-2">
             <Link
               to={"/details"}
@@ -31,12 +32,12 @@ const prod = (props) => {
             >
               <img src={image} alt="" className="img-fluid card-img-top" />
             </Link>
-            <div className="mt-sm-2 p-3 p-sm-2 pb-sm-0 pb-0 elips fw-bold">
+            <div className="mt-sm-2 p-2 pt-3 p-sm-2 pb-sm-0 pb-0 elips fw-bold">
               {name}
             </div>
           </div>
-          <div className="p-3 pt-0 pe-1 ">
-            <div className="d-flex">
+          <div className="p-2 p-sm-1 pt-0  ">
+            <div className="d-flex ps-1 ps-sm-2">
           <div className="flex-nowrap">
             <ReactStars 
               count={5}
@@ -50,10 +51,10 @@ const prod = (props) => {
 
             </div>
             <p className="sold fs-6 ps-1 m-0 ">
-              <span className="elips text-secondary">{sold}</span>
+              <span className="elips text-secondary ">{sold}</span>
               </p>
               </div>
-            <p className="price my-2 ps-1 mt-0">
+            <p className="price my-2 ps-1 ps-sm-2 mt-0">
               <span className="text-danger  fs-6">&#8369;</span> {price}{" "}
               <span className="text-secondary prices">
                 {" "}

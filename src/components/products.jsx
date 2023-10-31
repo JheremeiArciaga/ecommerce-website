@@ -25,6 +25,80 @@ import img7 from "../assets/images/products/f23.jpeg";
 import img8 from "../assets/images/products/f24.jpeg";
 
 
+export const Recommended = [
+  {
+    id: 4,
+    image: pr5,
+    name: "Men's Tech 2.0 Short Sleeve T-Shirt",
+    price: 259,
+    brand: "Under Armour",
+    status: "in stock",
+    rate: "50% Off",
+    sold:  "6k sold",
+  },
+  {
+    id: 5,
+    image: pr6,
+    name: "Women's Basic Tee, Men's Rebel Bold Tee",
+    price: 199,
+    brand: "H&M",
+    status: "in stock",
+    rate: "50% Off",
+    sold:  "10k+ sold",
+  },
+  {
+    id: 6,
+    image: pr7,
+    name: "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+    price: 299,
+    brand: "Puma",
+    status: "in stock",
+    rate: "50% Off",
+    sold:  "2k sold",
+  },
+  {
+    id: 7,
+    image: pr8,
+    name: "Women's Classic Fit Crewneck T-Shirt",
+    price: 199,
+    brand: "Ralph Lauren",
+    sold:  "6.1k sold",
+  },
+];
+export const BestSeller = [
+  {
+    id: 9,
+    image: pro2,
+    name: "Men's Dri-FIT T-Shirt",
+    price: 249,
+    brand: "Nike",
+    sold:  "2k sold",
+  },
+  {
+    id: 10,
+    image: pro3,
+    name: "Women's Badge of Sport Tee",
+    price: 399,
+    brand: "Adidas",
+    sold:  "200 sold",
+  },
+  {
+    id: 11,
+    image: pro4,
+    name: "Men's 1950s Sportswear T-Shirt",
+    price: 499,
+    brand: "Levi's",
+    sold:  "10k sold",
+  },
+  {
+    id: 12,
+    image: pro5,
+    name: "Men's Tech 2.0 Short Sleeve T-Shirt",
+    price: 499,
+    brand: "Under Armour",
+    sold:  "1.5k sold",
+  },
+];
 export const PRODUCTS = [
   {
     id: 0,

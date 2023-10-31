@@ -243,7 +243,7 @@ const header = () => {
             <div className="input-group mb-3">
               <input
                 type="text"
-                className="form-control"
+                className="form-control text-start"
                 placeholder="Find products ..."
                 aria-label="Find products ..."
                 aria-describedby="basic-addon2"
