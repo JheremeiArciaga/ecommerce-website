@@ -2,29 +2,35 @@ import React, { useContext } from "react";
 import { ShopContext } from "./shopcontext";
 import { MdDeleteOutline } from "react-icons/md";
 import Img from "./Imge";
+import { Link } from "react-router-dom";
 
 const cartitems = (props) => {
   const { id, name, image, price, brand } = props.data;
-  const {
-    addToCart,
-    cartItems,
-    removeToCart,
-    updateCartItemCount,
-  } = useContext(ShopContext);
+  const { addToCart, cartItems, removeToCart, updateCartItemCount } =
+    useContext(ShopContext);
   return (
     <>
-    
       <tbody key={id}>
         <tr className="border-bottom">
-          <div className="p-3 px-1 ">
-            <Img src={image} alt="" className="img-fluid " />
-          </div>
+          <Link
+            to={"/details"}
+            className="view-button "
+            onClick={() => viewProductDetails(id)}
+          >
+            <Img
+              src={image}
+              alt=""
+              className="img-fluid p-3 px-1 card-img-top"
+            />
+          </Link>
           <td className="px-2 ">
             <p>
-             <span className="prices">{brand}</span>{" "}
+              <span className="prices">{brand}</span>{" "}
             </p>
             <p>
-              <h5 className="price mb-0 text-black fw-bold ms-0 my-2">{name}</h5>
+              <h5 className="price mb-0 text-black fw-bold ms-0 my-2">
+                {name}
+              </h5>
             </p>
             <p>
               <span className="price ms-0">

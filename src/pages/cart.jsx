@@ -71,14 +71,14 @@ const cart = () => {
               <button className="py-0" onClick={() => navigate("/shop")}>
                 {isMobile ? "Continue" : "Continue Shopping"}
               </button>
-              <div className="mb-3 bg-dark p-2 me-md-5 mt-2">
+              <div className="mb-3 bg-dark  p-2 me-3 me-md-5  mt-2">
                 <Link className="text-white palitan" onClick={() => ClearCart(id)}>
                   Clear cart
                 </Link>
               </div>
             </div>
 
-            <div className=" cart-total col-12 col-md-12 total  pe-5 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end ">
+            <div className=" cart-total col-12 col-md-12 total  pe-md-5 mx-auto my-4 d-flex justify-content-md-end justify-content-center text-center text-md-end ">
               <div className="border rounded col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3 p-4 ">
                 <div className="text-center">
                   <h3>Order Summary</h3>

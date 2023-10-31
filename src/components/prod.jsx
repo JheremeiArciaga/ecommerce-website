@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const prod = (props) => {
-  const { id, name, image, price, brand,sold } = props.data;
+  const { id, name, image, price,sold } = props.data;
   const { viewProductDetails, addToCart, cartItems } = useContext(ShopContext);
   const cartItemCount = cartItems[id];
 
@@ -30,7 +30,7 @@ const prod = (props) => {
               className="view-button "
               onClick={() => viewProductDetails(id)}
             >
-              <img src={image} alt="" className="img-fluid card-img-top" />
+              <Img src={image} alt="" className="img-fluid card-img-top" />
             </Link>
             <div className="mt-sm-2 p-2 pt-3 p-sm-2 pb-sm-0 pb-0 elips fw-bold">
               {name}
