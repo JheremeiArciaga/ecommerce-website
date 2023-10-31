@@ -13,7 +13,6 @@ const shop = () => {
 </div>
       </section>
 
-
       <section className="pagination p-3">
         <div className="container-xxl">
           <div className="row">
