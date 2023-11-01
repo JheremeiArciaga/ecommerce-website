@@ -25,7 +25,7 @@ const home = () => {
               <h1 className="mt-4 d-none d-sm-none d-md-flex">Best Value Deals</h1>
               <h2 className="d-sm-none d-none d-md-flex">On All Products</h2>
               <p className="p-2 mb-3 d-none d-sm-none d-md-flex">Save more with Precious Bale</p>
-              <Link to={'/shop'} className="button-link mt-5">Shop Now</Link>
+              <Link to={'/shop'} className="button-link mt-5 ms-sm-2">Shop Now</Link>
             </div>
           </div>
         </div>

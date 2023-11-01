@@ -4,7 +4,6 @@ import { Link, useLocation, NavLink } from "react-router-dom";
 import logo from "../assets/images/sheout.png";
 import { AiOutlineUser, AiOutlineShoppingCart} from "react-icons/ai";
 import { ShopContext } from "./shopcontext";
-import compare from "../assets/images/compare.svg";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
 import { TbWorldDollar } from "react-icons/tb";
@@ -41,7 +40,7 @@ const header = () => {
               </div>
 
               <Link to="/">
-                <img src={logo} alt="logo" className="img-fluid logo" />
+                <img src={logo} alt="logo" width={125} height={1} className="img-fluid logo" />
               </Link>
 
               <div className="cart-span fs-2 d-md-none p-0 ">
@@ -171,12 +170,6 @@ const header = () => {
               </div>
             </div>
             <div className="nav-links-nav col-lg-2 col-md-1 d-none d-md-flex d-lg-flex  align-items-center justify-content-lg-end my-auto ">
-              {/* <Link to={'wishlist'} className={location.pathname === '/wishlist'? 'inactive': 'active'}><div className="d-flex">
-        <span><HiOutlineInboxIn className="fs-3 mx-2"/></span>
-      
-      <p>Wishlist</p>
-      </div>
-      </Link> */}
 
               <Link
                 onClick={toggleMenu}
