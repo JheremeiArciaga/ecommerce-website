@@ -1,7 +1,7 @@
 import React from "react";
 import Shopitems from "../components/shopitems";
 import Background from "../assets/images/banner/men-banner.jpg";
-import Img from "./Imge";
+import Img from "../components/Imge";
 
 const men = () => {
   return (
