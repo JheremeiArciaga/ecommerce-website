@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { ShopContext } from "./shopcontext";
 import ReactStars from "react-rating-stars-component";
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Img from "./Imge";
 import { toast } from "react-toastify";
@@ -18,6 +17,7 @@ const prod = (props) => {
       autoClose: 1000,
       draggable: true,
     });
+  const strikePrice = props.strikePrice || price * Math.round(1.5);
 
   return (
     <>
@@ -51,13 +51,15 @@ const prod = (props) => {
                 <span className="elips text-secondary ">{sold}</span>
               </p>
             </div>
+
             <p className="price my-2 ps-1 ps-sm-2 mt-0">
               <span className="text-danger  fs-6">&#8369;</span> {price}{" "}
               <span className="text-secondary prices">
                 {" "}
-                &nbsp;<strike>{price * Math.round(1.5)}</strike>
+                &nbsp;<strike>{strikePrice}</strike>
               </span>
             </p>
+
             <div className="d-flex align-items-center justify-content-around mb-2 ">
               <div className="col-6 d-flex align-items-center justify-content-around d-none d-sm-flex ">
                 <Link

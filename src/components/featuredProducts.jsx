@@ -3,7 +3,6 @@ import { PRODUCTS } from "./products";
 import Img from "./Imge";
 import { Link } from "react-router-dom";
 
-
 const featuredProducts = () => {
   return (
     <>
@@ -33,10 +32,12 @@ const featuredProducts = () => {
         ))}
       </div>
       <div className="container-xxl d-flex justify-content-center">
-      <div className="row  mt-4 mb-5">
-      <Link to={'/shop'} className="button-links">All Products</Link>
+        <div className="row  mt-4 mb-5">
+          <Link to={"/shop"} className="button-links">
+            All Products
+          </Link>
         </div>
-        </div>
+      </div>
     </>
   );
 };

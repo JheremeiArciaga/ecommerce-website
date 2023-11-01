@@ -18,13 +18,11 @@ import Forgotpassword from "./pages/forgotpassword";
 import Tooltip from "./tooltip";
 import PageNotFound from "./pages/pageNotFound";
 
-
 function App() {
   return (
     <>
       <ShopContext>
         <BrowserRouter>
-      
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
@@ -43,7 +41,6 @@ function App() {
               <Route path="*" element={<PageNotFound />} />
             </Route>
           </Routes>
- 
         </BrowserRouter>
       </ShopContext>
       <div className="App">

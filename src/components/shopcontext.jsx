@@ -1,4 +1,3 @@
-
 import React, { createContext, useState } from "react";
 import { PRODUCTS, PRODUCTS1 } from "../components/products";
 

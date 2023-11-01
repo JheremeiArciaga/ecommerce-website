@@ -6,7 +6,6 @@ import img1 from "../assets/images/blog/blog-1.jpg";
 import img2 from "../assets/images/blog/blog5.jpg";
 import img3 from "../assets/images/blog/blog-3.jpg";
 import img4 from "../assets/images/blog/blog-4.jpg";
-
 import orders from "../assets/images/icons/icons1.png";
 import orders1 from "../assets/images/icons/icons2.png";
 import orders2 from "../assets/images/icons/icons3.png";
@@ -17,10 +16,8 @@ import orders6 from "../assets/images/icons/icons7.png";
 import orders7 from "../assets/images/icons/icons8.jpg";
 import orders8 from "../assets/images/icons/icons9.png";
 import orders9 from "../assets/images/icons/icons10.png";
-
 import Marquee from "react-fast-marquee";
 import Img from "../components/Imge";
-
 
 const about = () => {
   return (
@@ -121,7 +118,7 @@ const about = () => {
                     </div>
                     <div className="card-body  p-2 p-sm-4">
                       <span className="card-text">
-                      <b className="font-title">Precious Sakalam </b>
+                        <b className="font-title">Precious Sakalam </b>
                         <p className="my-3">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Rerum vel reprehenderit doloribus quas! Quidem
@@ -143,7 +140,7 @@ const about = () => {
                     </div>
                     <div className="card-body  p-2 p-sm-4">
                       <span className="card-text">
-                      <b className="font-title">Precious Sakalam </b>
+                        <b className="font-title">Precious Sakalam </b>
                         <p className="my-3">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Rerum vel reprehenderit doloribus quas! Quidem
@@ -165,7 +162,7 @@ const about = () => {
                     </div>
                     <div className="card-body  p-2 p-sm-4">
                       <span className="card-text">
-                      <b className="font-title">Precious Sakalam </b>
+                        <b className="font-title">Precious Sakalam </b>
                         <p className="my-3">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Rerum vel reprehenderit doloribus quas! Quidem
@@ -187,7 +184,7 @@ const about = () => {
                     </div>
                     <div className="card-body  p-2 p-sm-4">
                       <span className="card-text">
-                      <b className="font-title">Precious Sakalam </b>
+                        <b className="font-title">Precious Sakalam </b>
                         <p className="my-3">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Rerum vel reprehenderit doloribus quas! Quidem
@@ -209,7 +206,7 @@ const about = () => {
                     </div>
                     <div className="card-body  p-2 p-sm-4">
                       <span className="card-text">
-                      <b className="font-title">Precious Sakalam </b>
+                        <b className="font-title">Precious Sakalam </b>
                         <p className="my-3">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Rerum vel reprehenderit doloribus quas! Quidem
@@ -219,8 +216,6 @@ const about = () => {
                   </div>
                 </div>
               </div>
-              
-              
             </div>
           </div>
         </div>

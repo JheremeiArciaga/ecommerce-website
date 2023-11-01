@@ -7,7 +7,6 @@ import img4 from "../assets/images/blog/b4.jpg";
 import img5 from "../assets/images/blog/b5.jpg";
 import Img from "../components/Imge";
 
-
 const blog = () => {
   return (
     <>

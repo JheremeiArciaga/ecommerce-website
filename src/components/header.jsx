@@ -2,7 +2,12 @@ import React, { useContext, useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import { Link, useLocation, NavLink } from "react-router-dom";
 import logo from "../assets/images/sheout.png";
-import { AiOutlineUser, AiOutlineShoppingCart, AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
+import {
+  AiOutlineUser,
+  AiOutlineShoppingCart,
+  AiOutlineMenu,
+  AiOutlineClose,
+} from "react-icons/ai";
 import { ShopContext } from "./shopcontext";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
@@ -19,15 +24,17 @@ const header = () => {
 
   return (
     <>
-    <Link to={'/shop'}>
-      <header className="header-top-strip ">
-      </header>
+      <Link to={"/shop"}>
+        <header className="header-top-strip "></header>
       </Link>
 
       <header className="navbar-middle sticky-top p-2 text-sm-center  p-md-2 p-lg-2 shadow-sm">
         <div className="container-xxl">
           <div className="row ">
-            <nav className="col-md-2 my-auto d-flex justify-content-center"role="navigation">
+            <nav
+              className="col-md-2 my-auto d-flex justify-content-center"
+              role="navigation"
+            >
               <div
                 className="navbar-toggler d-md-none "
                 type="button"
@@ -39,7 +46,13 @@ const header = () => {
               </div>
 
               <Link to="/">
-                <img src={logo} alt="logo" width={125} height={1} className="img-fluid logo" />
+                <img
+                  src={logo}
+                  alt="logo"
+                  width={125}
+                  height={1}
+                  className="img-fluid logo"
+                />
               </Link>
 
               <div className="cart-span fs-2 d-md-none p-0 ">
@@ -110,7 +123,7 @@ const header = () => {
                     SHOP
                   </NavLink>
                 </div>
-                
+
                 <div className="mx-2">
                   <NavLink
                     to="/women"
@@ -169,7 +182,6 @@ const header = () => {
               </div>
             </div>
             <div className="nav-links-nav col-lg-2 col-md-1 d-none d-md-flex d-lg-flex  align-items-center justify-content-lg-end my-auto ">
-
               <Link
                 onClick={toggleMenu}
                 to={"login"}

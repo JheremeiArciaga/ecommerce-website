@@ -1,4 +1,3 @@
-
 import pr1 from "../assets/images/products/f1.jpeg";
 import pr2 from "../assets/images/products/f2.jpeg";
 import pr3 from "../assets/images/products/f3.jpeg";
@@ -24,7 +23,6 @@ import img6 from "../assets/images/products/f22.jpeg";
 import img7 from "../assets/images/products/f23.jpeg";
 import img8 from "../assets/images/products/f24.jpeg";
 
-
 export const Recommended = [
   {
     id: 4,
@@ -34,7 +32,7 @@ export const Recommended = [
     brand: "Under Armour",
     status: "in stock",
     rate: "50% Off",
-    sold:  "6k sold",
+    sold: "6k sold",
   },
   {
     id: 5,
@@ -44,7 +42,7 @@ export const Recommended = [
     brand: "H&M",
     status: "in stock",
     rate: "50% Off",
-    sold:  "10k sold",
+    sold: "10k sold",
   },
   {
     id: 6,
@@ -54,7 +52,7 @@ export const Recommended = [
     brand: "Puma",
     status: "in stock",
     rate: "50% Off",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 7,
@@ -62,7 +60,7 @@ export const Recommended = [
     name: "Women's Classic Fit Crewneck T-Shirt",
     price: 199,
     brand: "Ralph Lauren",
-    sold:  "61 sold",
+    sold: "61 sold",
   },
 ];
 export const BestSeller = [
@@ -72,7 +70,7 @@ export const BestSeller = [
     name: "Men's Dri-FIT T-Shirt",
     price: 249,
     brand: "Nike",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 10,
@@ -80,7 +78,7 @@ export const BestSeller = [
     name: "Women's Badge of Sport Tee",
     price: 399,
     brand: "Adidas",
-    sold:  "200 sold",
+    sold: "200 sold",
   },
   {
     id: 11,
@@ -88,7 +86,7 @@ export const BestSeller = [
     name: "Men's 1950s Sportswear T-Shirt",
     price: 499,
     brand: "Levi's",
-    sold:  "10k sold",
+    sold: "10k sold",
   },
   {
     id: 12,
@@ -96,7 +94,7 @@ export const BestSeller = [
     name: "Men's Tech 2.0 Short Sleeve T-Shirt",
     price: 499,
     brand: "Under Armour",
-    sold:  "15k sold",
+    sold: "15k sold",
   },
 ];
 export const PRODUCTS = [
@@ -106,7 +104,7 @@ export const PRODUCTS = [
     name: "Slim Fit Dress Shirt",
     price: 249,
     brand: "Sheout",
-    sold:  "4k sold",
+    sold: "4k sold",
   },
   {
     id: 1,
@@ -116,7 +114,7 @@ export const PRODUCTS = [
     brand: "Nike",
     status: "in stock",
     rate: "50% Off",
-    sold:  "500 sold",
+    sold: "500 sold",
   },
   {
     id: 2,
@@ -126,7 +124,7 @@ export const PRODUCTS = [
     brand: "Adidas",
     status: "in stock",
     rate: "50% Off",
-    sold:  "3k sold",
+    sold: "3k sold",
   },
   {
     id: 3,
@@ -136,7 +134,7 @@ export const PRODUCTS = [
     brand: "Levi s",
     status: "in stock",
     rate: "50% Off",
-    sold:  "4k sold",
+    sold: "4k sold",
   },
   {
     id: 4,
@@ -146,7 +144,7 @@ export const PRODUCTS = [
     brand: "Under Armour",
     status: "in stock",
     rate: "50% Off",
-    sold:  "6k sold",
+    sold: "6k sold",
   },
   {
     id: 5,
@@ -156,7 +154,7 @@ export const PRODUCTS = [
     brand: "H&M",
     status: "in stock",
     rate: "50% Off",
-    sold:  "10k sold",
+    sold: "10k sold",
   },
   {
     id: 6,
@@ -166,7 +164,7 @@ export const PRODUCTS = [
     brand: "Puma",
     status: "in stock",
     rate: "50% Off",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 7,
@@ -174,7 +172,7 @@ export const PRODUCTS = [
     name: "Women's Classic Fit Crewneck T-Shirt",
     price: 199,
     brand: "Ralph Lauren",
-    sold:  "61k sold",
+    sold: "61k sold",
   },
   {
     id: 8,
@@ -182,7 +180,7 @@ export const PRODUCTS = [
     name: "Slim Fit Dress Shirt",
     price: 499,
     brand: "Calvin Klein",
-    sold:  "45k sold",
+    sold: "45k sold",
   },
   {
     id: 9,
@@ -190,7 +188,7 @@ export const PRODUCTS = [
     name: "Men's Dri-FIT T-Shirt",
     price: 249,
     brand: "Nike",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 10,
@@ -198,7 +196,7 @@ export const PRODUCTS = [
     name: "Women's Badge of Sport Tee",
     price: 399,
     brand: "Adidas",
-    sold:  "200 sold",
+    sold: "200 sold",
   },
   {
     id: 11,
@@ -206,7 +204,7 @@ export const PRODUCTS = [
     name: "Men's 1950s Sportswear T-Shirt",
     price: 499,
     brand: "Levi's",
-    sold:  "10k sold",
+    sold: "10k sold",
   },
   {
     id: 12,
@@ -214,7 +212,7 @@ export const PRODUCTS = [
     name: "Men's Tech 2.0 Short Sleeve T-Shirt",
     price: 499,
     brand: "Under Armour",
-    sold:  "15k sold",
+    sold: "15k sold",
   },
   {
     id: 13,
@@ -222,7 +220,7 @@ export const PRODUCTS = [
     name: "Women's Basic Tee, Men's Rebel Bold Tee",
     price: 99,
     brand: "H&M",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 14,
@@ -230,7 +228,7 @@ export const PRODUCTS = [
     name: "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     price: 399,
     brand: "Puma",
-    sold:  "5k sold",
+    sold: "5k sold",
   },
   {
     id: 15,
@@ -238,10 +236,9 @@ export const PRODUCTS = [
     name: "Women's Classic Fit Crewneck T-Shirt",
     price: 299,
     brand: "Ralph Lauren",
-    sold:  "5k sold",
+    sold: "5k sold",
   },
 ];
-
 
 export const PRODUCTS1 = [
   {
@@ -252,7 +249,7 @@ export const PRODUCTS1 = [
     brand: "Calvin Klein",
     status: "in stock",
     rate: "60% off",
-    sold:  "45k sold",
+    sold: "45k sold",
   },
   {
     id: 17,
@@ -262,7 +259,7 @@ export const PRODUCTS1 = [
     brand: "Nike",
     status: "in stock",
     rate: "60% off",
-    sold:  "234 sold",
+    sold: "234 sold",
   },
   {
     id: 18,
@@ -272,7 +269,7 @@ export const PRODUCTS1 = [
     brand: "Adidas",
     status: "in stock",
     rate: "60% off",
-    sold:  "6k sold",
+    sold: "6k sold",
   },
   {
     id: 19,
@@ -282,7 +279,7 @@ export const PRODUCTS1 = [
     brand: "Levi s",
     status: "out of stock",
     rate: "normal rates",
-    sold:  "4k sold",
+    sold: "4k sold",
   },
   {
     id: 20,
@@ -292,7 +289,7 @@ export const PRODUCTS1 = [
     brand: "Under Armour",
     status: "out of stock",
     rate: "normal rates",
-    sold:  "2k sold",
+    sold: "2k sold",
   },
   {
     id: 21,
@@ -302,7 +299,7 @@ export const PRODUCTS1 = [
     brand: "H&M",
     status: "out of stock",
     rate: "normal rates",
-    sold:  "3k sold",
+    sold: "3k sold",
   },
   {
     id: 22,
@@ -312,7 +309,7 @@ export const PRODUCTS1 = [
     brand: "Puma",
     status: "out of stock",
     rate: "normal rates",
-    sold:  "6k sold",
+    sold: "6k sold",
   },
   {
     id: 23,
@@ -322,6 +319,6 @@ export const PRODUCTS1 = [
     brand: "Ralph Lauren",
     status: "out of stock",
     rate: "normal rates",
-    sold:  "1k sold",
+    sold: "1k sold",
   },
 ];

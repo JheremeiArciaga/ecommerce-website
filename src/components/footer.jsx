@@ -1,7 +1,15 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { BsFacebook, BsInstagram, BsLinkedin, BsPinterest,BsTiktok, BsTwitter, BsYoutube } from "react-icons/bs";
+import {
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+  BsPinterest,
+  BsTiktok,
+  BsTwitter,
+  BsYoutube,
+} from "react-icons/bs";
 import google from "../assets/images/pay/play.jpg";
 import app from "../assets/images/pay/app.jpg";
 import pay from "../assets/images/pay/pay.png";
@@ -14,22 +22,34 @@ const footer = () => {
           <div className="row g-3">
             <div className="col-md-6">
               <div className="d-flex flex-column align-items-center">
-                <h2 className="mb-3 m-0 text-white">Join our newsletter & 20% off</h2>
+                <h2 className="mb-3 m-0 text-white">
+                  Join our newsletter & 20% off
+                </h2>
                 <h5 className="">
-                  to get updates On All <Link className="bg-dark text-white ms-2 p-2">Special Offers</Link>
+                  to get updates On All{" "}
+                  <Link className="bg-dark text-white ms-2 p-2">
+                    Special Offers
+                  </Link>
                 </h5>
-                </div>
-              </div>
-              <div className="col-md-5 details d-flex flex-column  justify-content-center">
-             <div className="input-group">
-            <input type="text" id='news-input' className="form-control text-start" placeholder="Enter Email" aria-label="@example.com" aria-describedby="basic-addon2" />
-            <button className="input-group-text " id="basic-addon2">Subscribe</button>
-          </div>
-        </div>
               </div>
             </div>
-          
-        
+            <div className="col-md-5 details d-flex flex-column  justify-content-center">
+              <div className="input-group">
+                <input
+                  type="text"
+                  id="news-input"
+                  className="form-control text-start"
+                  placeholder="Enter Email"
+                  aria-label="@example.com"
+                  aria-describedby="basic-addon2"
+                />
+                <button className="input-group-text " id="basic-addon2">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer className="footer p-4">
@@ -42,7 +62,7 @@ const footer = () => {
               <h3 className="mb-4 mt-2">Contact us</h3>
               <div className="footer-details">
                 <p className="mb-3">
-                  <b>Address:</b> Balanbalunan brgy dyan sa tabi cavite 
+                  <b>Address:</b> Balanbalunan brgy dyan sa tabi cavite
                 </p>
                 <p className="mb-3">
                   <b>Phone:</b>{" "}
@@ -59,7 +79,7 @@ const footer = () => {
                   <Link>
                     <BsTwitter className="fs-4 colorized" />
                   </Link>
-                
+
                   <Link>
                     <BsInstagram className="fs-4 colorized" />
                   </Link>
@@ -110,12 +130,20 @@ const footer = () => {
                 <div className="pay d-flex ">
                   <div>
                     <Link>
-                      <img src={google} alt="" className="img-fluid px-1 p-xl-1 my-3" />
+                      <img
+                        src={google}
+                        alt=""
+                        className="img-fluid px-1 p-xl-1 my-3"
+                      />
                     </Link>
                   </div>
                   <div>
                     <Link>
-                      <img src={app} alt="" className="img-fluid  px-1 p-xl-1 my-3" />
+                      <img
+                        src={app}
+                        alt=""
+                        className="img-fluid  px-1 p-xl-1 my-3"
+                      />
                     </Link>
                   </div>
                 </div>

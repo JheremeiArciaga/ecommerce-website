@@ -3,7 +3,6 @@ import { PRODUCTS, PRODUCTS1 } from "../components/products";
 import Cartitems from "../components/cartitems";
 import { ShopContext } from "../components/shopcontext";
 import { Link } from "react-router-dom";
-Link;
 import { BsCartX } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 
