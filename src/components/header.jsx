@@ -2,12 +2,11 @@ import React, { useContext, useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import { Link, useLocation, NavLink } from "react-router-dom";
 import logo from "../assets/images/sheout.png";
-import { AiOutlineUser, AiOutlineShoppingCart} from "react-icons/ai";
+import { AiOutlineUser, AiOutlineShoppingCart, AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import { ShopContext } from "./shopcontext";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
 import { TbWorldDollar } from "react-icons/tb";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const header = () => {
   const location = useLocation();
