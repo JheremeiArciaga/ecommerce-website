@@ -1,12 +1,12 @@
 import React from "react";
 import Shopitems from "../components/shopitems";
 import Background from "../assets/images/banner/women-banner.jpg";
-import Img from "../components/Imge";
+import Img from "./Imge";
 
 const women = () => {
   return (
     <>
-      <section >
+      <section>
         <div className="container-xxl">
           <div className="row justify-content-center align-items-center ">
             <article className="article p-0">
