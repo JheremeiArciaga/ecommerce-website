@@ -91,9 +91,9 @@ const header = () => {
                     aria-label="Search ..."
                     aria-describedby="basic-addon2"
                   />
-                  <button
+                  <button role="button"
                     className="input-group-text fs-4 pt-2"
-                    id="basic-addon2"
+                    id="basic-addon2" aria-label="Name"
                   >
                     <BiSearch />
                   </button>
