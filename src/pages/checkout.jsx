@@ -17,7 +17,7 @@ const checkout = () => {
 
   const handlePay = () => {
     window.alert(
-      `Thank you for your purchase of ${totalProducts} products for a total of ${totalAmount}. Your request has been received and is being processed.`
+      `Thank you for your purchase of ${totalProducts} products for a total of ${totalAmount}php. Your request has been received and is being processed.`
     );
     resetCart();
   };
