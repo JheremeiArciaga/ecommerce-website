@@ -149,7 +149,7 @@ const footer = () => {
                 </div>
                 <p>We Acccept</p>
                 <Link className="pay1">
-                  <img src={pay} alt="" className="img-fluid " />
+                  <img src={pay} alt="payment" />
                 </Link>
               </div>
             </div>
