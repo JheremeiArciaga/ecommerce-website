@@ -49,9 +49,9 @@ const header = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  width={125}
-                  height={45}
-                  className=" logo"
+                  width={124}
+                  height={26}
+                
                 />
               </Link>
 
