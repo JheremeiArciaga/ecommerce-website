@@ -50,8 +50,8 @@ const header = () => {
                   src={logo}
                   alt="logo"
                   width={125}
-                  height={1}
-                  className="img-fluid logo"
+                  height={45}
+                  className=" logo"
                 />
               </Link>
 
