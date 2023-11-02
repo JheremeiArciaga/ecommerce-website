@@ -258,7 +258,7 @@ footer {
 /* home begins */
 /* Home background pic */
 .banner-details {
-  background: url(./assets/h&h.png);
+  background: url(./assets/h&h.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +282,7 @@ footer {
   color: var(--darken);
 }
 .repair {
-  background: url(./assets/images/banner/b2.png);
+  background: url(./assets/images/banner/b2.webp);
   background-position: center;
   background-size: cover;
   width: 100%;
