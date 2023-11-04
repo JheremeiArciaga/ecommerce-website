@@ -66,7 +66,7 @@ const footer = () => {
                 </p>
                 <p className="mb-3">
                   <b>Phone:</b>{" "}
-                  <a href="tel:+1234567890" role="link" aria-label="next page ">Call us at(+63) 093434523</a>
+                  <a href="tel:+1234567890" role="link" aria-label="Telephone Number">Call us at(+63) 093434523</a>
                 </p>
                 <p className="mb-5">
                   <b>Hours Open:</b> From 10 a.m To 6 p.m
