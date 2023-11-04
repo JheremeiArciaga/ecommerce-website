@@ -90,7 +90,7 @@ const home = () => {
                   </div>
                   <div className="col-md-8 col-lg-8">
                     <div className="card-body p-lg-5 align-items-center ">
-                      <h5 className="card-title px-2">Appordable Delivery</h5>
+                      <p className="card-title px-2">Appordable Delivery</p>
                       <hr />
                       <h2 className="card-text mb-2">
                         {" "}
@@ -124,7 +124,7 @@ const home = () => {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body text-sm-center text-md-start w-10 p-lg-5">
-                      <h5 className="card-title px-2">Care About You</h5>
+                      <p className="card-title px-2">Care About You</p>
                       <hr />
                       <h2 className="card-text mb-2">
                         <strong>NEXT DAY HOME DELIVERY</strong>

@@ -425,6 +425,10 @@ footer {
 .brands {
   color: var(--primary);
 }
+.title :nth-child(2) {
+  font-size: clamp(0.875rem, 0.7188rem + 0.5vw, 1rem);
+  font-weight: bold;
+}
 
 /* shop end */
 
@@ -482,6 +486,9 @@ footer {
 /* cart start */
 .news-letter {
   background-color: #c9a891;
+}
+.news-letter p {
+  font-size: clamp(0.875rem, 0.7188rem + 0.5vw, 1rem);
 }
 #news-input {
   height: 3rem;
@@ -594,9 +601,7 @@ tbody {
   width: 100%;
   border: none;
 }
-.card p {
-  text-align: justify;
-}
+
 
 .card-footer {
   color: var(--darken);

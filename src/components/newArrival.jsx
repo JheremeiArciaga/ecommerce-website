@@ -16,12 +16,12 @@ const newArrival = () => {
                 className="card-img-top img-fluid m-auto mb-3 mb-sm-4"
               />
               <div className="card-details">
-                <div className="tittle mb-3">
+                <div className="title mb-3">
                   <span>{product.brand}</span>
-                  <h5 className="elips mt-1 mt-sm-2">{product.name}</h5>
+                  <p className="elips mt-1 mt-sm-2">{product.name}</p>
                 </div>
                 <div className="card-footer text-center mb-2">
-                  <p className="mb-3 d-none d-md-block">{product.status}</p>
+                  <p className="d-none d-md-block">{product.status}</p>
                   <p>
                     <strike className="text-danger">{product.rate}</strike>
                   </p>
