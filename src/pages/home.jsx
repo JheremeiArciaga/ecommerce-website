@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import Hero from "../components/hero";
 import FeaturedProducts from "../components/featuredProducts";
 import NewArrival from "../components/newArrival";
-import img1 from "../assets/images/banner/beige1.png";
-import img2 from "../assets/images/banner/beige2.png";
+import img1 from "../assets/images/banner/beige1.webp";
+import img2 from "../assets/images/banner/beige2.webp";
 import Testimonial from "../components/testimonial";
 import Img from "../components/Imge";
 

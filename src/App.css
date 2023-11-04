@@ -147,7 +147,7 @@ button:hover {
 }
 .header-top-strip {
   background-color: #c9a891;
-  background-image: url(./assets/images/banner/top-banner.png);
+  background-image: url(./assets/images/banner/top-banner.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -368,7 +368,7 @@ footer {
 
 /* SHOP */
 .shop-banner {
-  background: url(./assets/images/banner/b1.png);
+  background: url(./assets/images/banner/b1.webp);
   background-position: calc(52%);
   background-size: cover;
   width: 100%;
@@ -577,7 +577,7 @@ tbody {
 }
 /* blog starts */
 .blog-wrapper {
-  background: url(./assets/images/banner/b19.png);
+  background: url(./assets/images/banner/b19.webp);
   background-position: calc(90%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -624,7 +624,7 @@ tbody {
 
 /* About Starts */
 .about-wrapper {
-  background: url(./assets/images/about/banner.png);
+  background: url(./assets/images/about/banner.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

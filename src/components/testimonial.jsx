@@ -1,8 +1,8 @@
 import React from "react";
-import blog1 from "../assets/images/blog/blog-1.jpg";
-import blog2 from "../assets/images/blog/blog5.jpg";
-import blog3 from "../assets/images/blog/blog-3.jpg";
-import blog4 from "../assets/images/blog/blog-4.jpg";
+import blog1 from "../assets/images/blog/blog-1.webp";
+import blog2 from "../assets/images/blog/blog5.webp";
+import blog3 from "../assets/images/blog/blog-3.webp";
+import blog4 from "../assets/images/blog/blog-4.webp";
 import { Link } from "react-router-dom";
 import Img from "./Imge";
 

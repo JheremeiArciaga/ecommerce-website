@@ -1,11 +1,11 @@
 import React from "react";
-import a6 from "../assets/images/about/a6.png";
+import a6 from "../assets/images/about/a6.webp";
 import { Link } from "react-router-dom";
 import vid from "../assets/images/about/1.mp4";
-import img1 from "../assets/images/blog/blog-1.jpg";
-import img2 from "../assets/images/blog/blog5.jpg";
-import img3 from "../assets/images/blog/blog-3.jpg";
-import img4 from "../assets/images/blog/blog-4.jpg";
+import img1 from "../assets/images/blog/blog-1.webp";
+import img2 from "../assets/images/blog/blog5.webp";
+import img3 from "../assets/images/blog/blog-3.webp";
+import img4 from "../assets/images/blog/blog-4.webp";
 import orders from "../assets/images/icons/icons1.png";
 import orders1 from "../assets/images/icons/icons2.png";
 import orders2 from "../assets/images/icons/icons3.png";

@@ -1,6 +1,6 @@
 import React from "react";
 import Shopitems from "../components/shopitems";
-import Background from "../assets/images/banner/women-banner.jpg";
+import Background from "../assets/images/banner/women-banner.webp";
 import Img from "../components/Imge";
 
 const women = () => {
