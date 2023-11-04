@@ -242,7 +242,9 @@ footer {
 
 .pay img, .pay1 img {
   transition: 0.5s ease;
-  max-width: 150%;
+    aspect-ratio: 28/9;
+    width: 100%;
+    object-fit: cover;
 }
 .pay img:hover {
   transform: translateY(-8px);
