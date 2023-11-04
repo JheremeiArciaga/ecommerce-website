@@ -271,15 +271,18 @@ footer {
   color: #fdfdfd;
 }
 
-.featured-products .card img {
+.featured-products .card img, .new-products .card img {
   border-radius: 20px;
 }
-.featured-products .card {
+.featured-products .card, .new-products .card {
   border-radius: 20px;
   max-width: 250px;
 }
-.featured-products .card span {
+.featured-products .card span, .new-products .card span {
   color: var(--darken);
+}
+.featured-products h1, .new-products h1{
+  font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
 }
 .repair {
   background: url(./assets/images/banner/b2.webp);
@@ -319,18 +322,7 @@ footer {
   color: white;
   border: 1px solid var(--primary);
 }
-.new-products .card img {
-  border-radius: 20px;
-  width: 100%;
-  max-height: 220px;
-}
-.new-products .card {
-  border-radius: 20px;
-  max-width: 250px;
-}
-.new-products .card span {
-  color: var(--darken);
-}
+
 .button-deals {
   padding: 10px 8px;
   font-size: 18px;

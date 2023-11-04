@@ -41,7 +41,7 @@ const home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="text-center">
-              <h1>Our Featured Products</h1>
+              <h1 className="mb-1">Our Featured Products</h1>
               <p>All Weather Modern Design</p>
             </div>
             <FeaturedProducts />
@@ -49,20 +49,21 @@ const home = () => {
         </div>
       </section>
       <Link to={"/shop"}>
-        <section className="repair  "></section>
+        <section className="repair"></section>
       </Link>
 
-      <section className="new-products p-md-5 py-5 p-1">
+      <section className="new-products p-1 p-lg-5 py-5 mt-5">
         <div className="container-xxl">
-          <div className="">
+          <div className="row">
             <div className="text-center">
-              <h1>New Arrivals</h1>
-              <p className="mb-5">Your Best Designer Outfits</p>
+              <h1 className="mb-1">New Arrivals</h1>
+              <p>Your Best Designer Outfits</p>
             </div>
             <NewArrival />
           </div>
         </div>
       </section>
+     
 
       <section className="new-products px-5">
         <div className="container-xxl">
