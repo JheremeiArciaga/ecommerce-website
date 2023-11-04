@@ -148,9 +148,9 @@ const header = () => {
                 </div>
                 <div className="mx-2">
                   <NavLink
-                    to="/learnblog"
+                    to="/blog"
                     className={
-                      location.pathname === "/learnblog" ? "active" : "not-active"
+                      location.pathname === "/blog" ? "active" : "not-active"
                     }
                     onClick={toggleMenu}
                   >
@@ -282,9 +282,9 @@ const header = () => {
               <div className="mb-2">
                 <NavLink
                   className={
-                    location.pathname === "/WOMEN" ? "active" : "not-active"
+                    location.pathname === "/women" ? "active" : "not-active"
                   }
-                  to="/WOMEN"
+                  to="/women"
                   onClick={toggleMenu}
                 >
                   WOMEN
@@ -293,9 +293,9 @@ const header = () => {
               <div className="mb-2">
                 <NavLink
                   className={
-                    location.pathname === "/MEN" ? "active" : "not-active"
+                    location.pathname === "/men" ? "active" : "not-active"
                   }
-                  to="/MEN"
+                  to="/men"
                   onClick={toggleMenu}
                 >
                   MEN
@@ -304,9 +304,9 @@ const header = () => {
               <div className="mb-2">
                 <NavLink
                   className={
-                    location.pathname === "/learnblog" ? "active" : "not-active"
+                    location.pathname === "/blog" ? "active" : "not-active"
                   }
-                  to="/learnblog"
+                  to="/blog"
                   onClick={toggleMenu}
                 >
                   BLOG
