@@ -239,13 +239,10 @@ footer {
 .colorized {
   color: var(--primary3);
 }
-.pay img {
+
+.pay img, .pay1 img {
   transition: 0.5s ease;
-  max-width: 150px;
-}
-.pay1 img {
-  transition: 0.5s ease;
-  max-width: 270px;
+  max-width: 150%;
 }
 .pay img:hover {
   transform: translateY(-8px);

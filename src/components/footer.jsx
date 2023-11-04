@@ -132,7 +132,7 @@ const footer = () => {
                     <Link>
                       <img
                         src={google}
-                        alt=""
+                        alt="payment"
                         className="img-fluid px-1 p-xl-1 my-3"
                       />
                     </Link>
@@ -141,7 +141,7 @@ const footer = () => {
                     <Link>
                       <img
                         src={app}
-                        alt=""
+                        alt="eto"
                         className="img-fluid  px-1 p-xl-1 my-3"
                       />
                     </Link>
@@ -149,7 +149,7 @@ const footer = () => {
                 </div>
                 <p>We Acccept</p>
                 <Link className="pay1">
-                  <img src={pay} alt="payment" />
+                  <img src={pay} alt="payment" width="330" height="110" />
                 </Link>
               </div>
             </div>
