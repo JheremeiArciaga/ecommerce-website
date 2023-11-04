@@ -43,7 +43,7 @@ const footer = () => {
                   aria-label="@example.com"
                   aria-describedby="basic-addon2"
                 />
-                <button className="input-group-text " id="basic-addon2">
+                <button className="input-group-text " id="basic-addon3">
                   Subscribe
                 </button>
               </div>
