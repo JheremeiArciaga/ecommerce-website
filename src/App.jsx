@@ -18,30 +18,36 @@ import Forgotpassword from "./pages/forgotpassword";
 import Tooltip from "./tooltip";
 import PageNotFound from "./pages/pageNotFound";
 
+function Routesko() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="shop" element={<Shop />} />
+          <Route path="men" element={<Men />} />
+          <Route path="women" element={<Women />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<Signup />} />
+          <Route path="forgotpasword" element={<Forgotpassword />} />
+          <Route path="details" element={<Details />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
 function App() {
   return (
     <>
       <ShopContext>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="shop" element={<Shop />} />
-              <Route path="men" element={<Men />} />
-              <Route path="women" element={<Women />} />
-              <Route path="blog" element={<Blog />} />
-              <Route path="about" element={<About />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="cart" element={<Cart />} />
-              <Route path="checkout" element={<Checkout />} />
-              <Route path="login" element={<Login />} />
-              <Route path="signup" element={<Signup />} />
-              <Route path="forgotpasword" element={<Forgotpassword />} />
-              <Route path="details" element={<Details />} />
-              <Route path="*" element={<PageNotFound />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+        <Routesko />
       </ShopContext>
       <div className="App">
         <Tooltip></Tooltip>
