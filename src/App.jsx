@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Shop from "./pages/shop";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
-import Blog from "./pages/blog";
+import Blog from "./pages/learnblog";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Cart from "./pages/cart";
