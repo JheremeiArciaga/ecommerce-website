@@ -31,7 +31,7 @@ const testimonial = () => {
                   The search features on this website are amazing! I was able to narrow down my choices quickly and easily.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">learn more</button>
+                    <button className="mt-4" aria-label="learn more about us">more</button>
                   </Link>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const testimonial = () => {
                   The customer support on this website is top-notch! They were able to answer all of my questions.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">learn more</button>
+                    <button className="mt-4">more</button>
                   </Link>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const testimonial = () => {
                   I love shopping on this website! The prices are great, the selection is wide, and the shipping is fast." - Sarah Green
                   </p>
                   <Link to="about">
-                    <button className="mt-4">learn more</button>
+                    <button className="mt-4">more</button>
                   </Link>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const testimonial = () => {
                   This website is my go-to for all of my online shopping needs. I always have a positive experience.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">learn more</button>
+                    <button className="mt-4">more</button>
                   </Link>
                 </div>
               </div>
