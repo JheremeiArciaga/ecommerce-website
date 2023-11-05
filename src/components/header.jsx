@@ -311,7 +311,7 @@ const header = () => {
                   onClick={toggleMenu}
                   aria-label="Blog About Us"
                 >
-                  BLOG
+                  BLOGGerist
                 </Link>
               </div>
               <div className="mb-2">
