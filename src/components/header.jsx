@@ -306,7 +306,7 @@ const header = () => {
                   className={
                     location.pathname === "/blog" ? "active" : "not-active"
                   }
-                  to="/blogko"
+                  to="/blog"
                   onClick={toggleMenu}
                 >
                   BLOG

@@ -135,7 +135,7 @@ const home = () => {
                           Next Day Home Delivery within Metro Manila!
                         </small>
                       </p>
-                      <Link to="blog">
+                      <Link to="/blog">
                         <button className="button-deals m-2">Learn more</button>
                       </Link>
                     </div>
