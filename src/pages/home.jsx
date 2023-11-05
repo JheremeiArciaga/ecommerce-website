@@ -136,7 +136,7 @@ const home = () => {
                         </small>
                       </p>
                       <Link to="/blog">
-                        <button className="button-deals m-2">Learn more</button>
+                        <button className="button-deals m-2">learn more</button>
                       </Link>
                     </div>
                   </div>
