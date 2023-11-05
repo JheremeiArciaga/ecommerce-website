@@ -153,6 +153,7 @@ const header = () => {
                       location.pathname === "/blog" ? "active" : "not-active"
                     }
                     onClick={toggleMenu}
+                    aria-label="Blog About Us"
                   >
                     BLOG
                   </Link>
@@ -308,6 +309,7 @@ const header = () => {
                   }
                   to="/blog"
                   onClick={toggleMenu}
+                  aria-label="Blog About Us"
                 >
                   BLOG
                 </Link>
