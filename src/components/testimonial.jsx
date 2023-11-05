@@ -28,10 +28,16 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                  The search features on this website are amazing! I was able to narrow down my choices quickly and easily.
+                    The search features on this website are amazing! I was able
+                    to narrow down my choices quickly and easily.
                   </p>
                   <Link to="about">
-                    <button className="mt-4" aria-label="learn more about us">more</button>
+                    <button
+                      className="mt-4"
+                      aria-label="learn more about how our search features work"
+                    >
+                      learn more
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -46,7 +52,8 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                  The customer support on this website is top-notch! They were able to answer all of my questions.
+                    The customer support on this website is top-notch! They were
+                    able to answer all of my questions.
                   </p>
                   <Link to="about">
                     <button className="mt-4">more</button>
@@ -64,7 +71,8 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                  I love shopping on this website! The prices are great, the selection is wide, and the shipping is fast." - Sarah Green
+                    I love shopping on this website! The prices are great, the
+                    selection is wide, and the shipping is fast." - Sarah Green
                   </p>
                   <Link to="about">
                     <button className="mt-4">more</button>
@@ -82,7 +90,8 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                  This website is my go-to for all of my online shopping needs. I always have a positive experience.
+                    This website is my go-to for all of my online shopping
+                    needs. I always have a positive experience.
                   </p>
                   <Link to="about">
                     <button className="mt-4">more</button>
