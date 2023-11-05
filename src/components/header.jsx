@@ -153,7 +153,6 @@ const header = () => {
                       location.pathname === "/blog" ? "active" : "not-active"
                     }
                     onClick={toggleMenu}
-                    aria-label="Blog About Us"
                   >
                     BLOG
                   </Link>
@@ -307,11 +306,10 @@ const header = () => {
                   className={
                     location.pathname === "/blog" ? "active" : "not-active"
                   }
-                  to="/blog"
+                  to="/blogko"
                   onClick={toggleMenu}
-                  aria-label="Blog About Us"
                 >
-                  BLOGGerist
+                  BLOG
                 </Link>
               </div>
               <div className="mb-2">
