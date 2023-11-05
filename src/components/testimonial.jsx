@@ -32,7 +32,7 @@ const testimonial = () => {
                     up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">Learn more</button>
+                    <button className="mt-4">learn more</button>
                   </Link>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const testimonial = () => {
                     up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">Learn more</button>
+                    <button className="mt-4">learn more</button>
                   </Link>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const testimonial = () => {
                     up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">Learn more</button>
+                    <button className="mt-4">learn more</button>
                   </Link>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const testimonial = () => {
                     up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">Learn more</button>
+                    <button className="mt-4">learn more</button>
                   </Link>
                 </div>
               </div>
