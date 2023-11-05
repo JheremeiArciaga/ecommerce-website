@@ -13,8 +13,8 @@ const testimonial = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 text-center">
-              <h1 className="mb-1">What our customers say...</h1>
-              <p className="mb-5">
+              <h1 className="mb-3">What our customers say...</h1>
+              <p className="mb-4">
                 Our customers never miss a bit on providing feedback
               </p>
             </div>
@@ -28,16 +28,11 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    The search features on this website are amazing! I was able
-                    to narrow down my choices quickly and easily.
+                    Some quick example text to build on the card title and make
+                    up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button
-                      className="mt-4"
-                      aria-label="learn more about how our search features work"
-                    >
-                      learn more
-                    </button>
+                    <button className="mt-4">Learn more</button>
                   </Link>
                 </div>
               </div>
@@ -52,11 +47,11 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    The customer support on this website is top-notch! They were
-                    able to answer all of my questions.
+                    Some quick example text to build on the card title and make
+                    up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">more</button>
+                    <button className="mt-4">Learn more</button>
                   </Link>
                 </div>
               </div>
@@ -71,11 +66,11 @@ const testimonial = () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    I love shopping on this website! The prices are great, the
-                    selection is wide, and the shipping is fast." - Sarah Green
+                    Some quick example text to build on the card title and make
+                    up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">more</button>
+                    <button className="mt-4">Learn more</button>
                   </Link>
                 </div>
               </div>
@@ -86,15 +81,15 @@ const testimonial = () => {
                 <Img
                   src={blog4}
                   className="card-img-top img-fluid w-100"
-                  alt="blog"
+                  alt="..."
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    This website is my go-to for all of my online shopping
-                    needs. I always have a positive experience.
+                    Some quick example text to build on the card title and make
+                    up the bulk of the cards content.
                   </p>
                   <Link to="about">
-                    <button className="mt-4">more</button>
+                    <button className="mt-4">Learn more</button>
                   </Link>
                 </div>
               </div>
