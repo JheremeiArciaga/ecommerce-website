@@ -1,6 +1,6 @@
 import React from "react";
 import Prod from "./prod";
-import { Recommended, PRODUCTS, PRODUCTS1, BestSeller } from "./products";
+import { Recommended, BestSeller, PRODUCTS, PRODUCTS1 } from "./products";
 const shopitems = () => {
   return (
     <>

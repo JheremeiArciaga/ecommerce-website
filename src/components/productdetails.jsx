@@ -25,7 +25,7 @@ const productdetails = () => {
           <div className="col card">
             <Img
               src={product.image}
-              alt=""
+              alt="product images"
               className="img-fluid p-1 py-3 p-sm-4"
             />
           </div>
@@ -114,7 +114,7 @@ const productdetails = () => {
                         <div className="card h-100 m-auto ">
                           <Img
                             src={product.image}
-                            alt=""
+                            alt="products images"
                             className="card-img-top img-fluid m-auto p-2"
                           />
                         </div>
@@ -129,7 +129,7 @@ const productdetails = () => {
                         <div className="card h-100 m-auto ">
                           <Img
                             src={product.image}
-                            alt=""
+                            alt="product images"
                             className="card-img-top img-fluid m-auto p-2"
                           />
                         </div>

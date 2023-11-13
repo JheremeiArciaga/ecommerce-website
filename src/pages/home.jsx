@@ -85,7 +85,7 @@ const home = () => {
                     <Img
                       src={img1}
                       className="img-fluid rounded-start p-sm-2 p-md-2 deliver"
-                      alt="..."
+                      alt="Best delivery"
                     />
                   </div>
                   <div className="col-md-8 col-lg-8">
@@ -119,7 +119,7 @@ const home = () => {
                     <Img
                       src={img2}
                       className="img-fluid rounded-start p-sm-2 p-md-2 deliver"
-                      alt="..."
+                      alt="Care about you"
                     />
                   </div>
                   <div className="col-md-8">

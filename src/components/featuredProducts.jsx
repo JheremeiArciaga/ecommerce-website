@@ -12,7 +12,7 @@ const featuredProducts = () => {
             <div className="card h-100 m-auto p-2 p-md-3">
               <Img
                 src={product.image}
-                alt=""
+                alt="product images"
                 className="card-img-top img-fluid m-auto mb-3 mb-sm-4"
               />
               <div className="card-details">
